@@ -1,0 +1,139 @@
+/* add to cart style sheet */
+
+.suppliers-div {
+    
+    box-shadow: 0 0 10px #d7d7d7;
+    margin-bottom: 20px;
+}
+.suppliers-out-div {
+    border-bottom: 2px solid #d7d7d7;
+    margin: 10px;
+    padding: 10px;
+}
+.suppliers {
+    font-size: 24px;
+}
+.leave-message {
+    font-size: 18px;
+    margin-right: 10px;
+}
+.right {
+    float: right;
+}
+.leave-message > a {
+    color: #50aa43;
+}
+
+.product-head {
+    margin: 10px;   
+}
+.product-name {
+    font-size: 22px;
+}
+.get-coupons > a {
+    color: #50aa43;
+    font-size: 18px;
+    text-align: center;
+}
+.product-details > .details {
+    font-size: 15px;
+    line-height: 15px;
+}
+.product-actions {
+    text-align: center;
+}
+.product-actions > .heart {
+    margin-right: 25px;
+    font-size: 22px;
+    color: #d4d4d4;
+}
+.product-actions > .delete {
+    font-size: 22px;
+    color: #d4d4d4;
+}
+.delivery {
+    color: #929292;
+}
+.product-bottom {
+    margin: 30px !important;
+}
+.discount {
+    font-size: 16px;
+}
+.discount > .ddd {
+    font-weight: bold;
+}
+.get-discount-div {
+    text-align: center;
+    margin-top: -10px !important;
+
+}
+.get-discount > .minus, .plus {
+    font-size: 22px;
+    font-weight: bold;
+}
+.get-discount > .count {
+    color: #ffffff;
+    background-color: #6faf44;
+    font-size: 23px;
+    padding: 3px 19px;
+    border-radius: 25px;
+    margin: 0px 16px;
+}
+.select-options {
+    background-color: #fff;
+    font-size: 18px;
+    width: 50%;
+    padding: 5px;
+    color: #a29e9f;
+    border: 1px solid #bfbdbd;
+    border-radius: 4px;
+}
+.line {
+    border-bottom: 1px solid #d7d7d7;
+}
+.order-summary {
+    font-size: 26px;
+}
+.sub-total, .Shipping {
+    font-size: 22px;
+}
+.total {
+    border-top: 2px solid #8e8c8c;
+    font-size: 22px;
+    line-height: 50px;
+}
+.order-summary-form {
+    
+}
+.order-summary-form > .voucher-code {
+    background-color: #fff;
+    font-size: 17px;
+    width: 68%;
+    padding: 6px;
+    color: #a29e9f;
+    border: 1px solid #bfbdbd;
+    border-radius: 25px;
+    
+}
+.order-summary-form > .apply {
+    color: #ffffff;
+    background-color: #6faf44;
+    font-size: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    margin: -3px 5px;
+    float: right;
+    border: 1px solid #6faf44;
+    font-weight: bold;
+}
+.order-summary-form > .check-out {
+    color: #ffffff;
+    background-color: #6faf44;
+    font-size: 19px;
+    padding: 9px 20px;
+    border-radius: 25px;
+    margin: 14px 8px;
+    border: 1px solid #6faf44;
+    font-weight: bold;
+}

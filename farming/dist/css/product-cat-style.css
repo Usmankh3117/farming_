@@ -1,0 +1,120 @@
+/* product category css */ 
+
+.categories-div {
+	border: 1px solid #d7d7d7;
+	box-shadow: 0 0 10px #d7d7d7;
+	margin-top: 25px;
+}
+.categories-heading {
+	font-size: 20px !important;
+}
+
+
+/* .search-div {
+	/*  
+} */
+
+.category-checkbox {
+	transform: scale(1.5);
+	margin-right: 10px !important;
+}
+.category-input {
+	border: 1px solid #b7b3b3;
+    padding: 5px;
+    border-radius: 2px;
+	margin: 5px 0px;
+	color: #b1b1b1;
+}
+.category-input-min-max {
+	border: 1px solid #b7b3b3;
+    padding: 5px;
+    border-radius: 2px;
+	margin: 5px 0px;
+	width: 91px;
+	color: #b1b1b1;
+}
+.outer-product-div {
+	padding: 10px 0px !important;
+}
+.mini-img {
+	width: 45px;
+    margin-right: 20px;
+}
+
+.ok-btn {
+	padding: 5px;
+    border: 1px solid #bdbdbd;
+    border-radius: 2px;
+}
+.suggested-locations {
+	margin-left: 10px;
+}
+.cat-icon {
+	font-size: 10px !important;
+    padding-top: 6px;
+    float: right;
+}
+.suggested-locations > li{
+	list-style: none;
+}
+
+.suggested-locations > li > label{
+	font-weight: 100 !important;
+}
+
+/*---------------------
+  products page
+-----------------------*/
+
+.products-details > ul > li{
+    list-style-type: none;
+    font-size: 13px;
+    /* line-height: 22px; */
+    margin: 1px 1px 1px 10px;
+    font-weight: bold;
+}
+.products-details > ul > .img-div {
+	list-style-type: none;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 1px 1px 1px 10px;
+    font-weight: bold;
+    display: inline;
+}
+
+.products-details > ul > li > button{
+	border: none;
+    background-color: #cfe9e0;
+	padding: 3px 8px 3px 8px;
+	margin: 5px 0px;
+}
+.products-details-bar {
+	background-color: #eaeaea;
+	margin: 6px;
+	padding: 10px;
+}
+.products-details-bar > span {
+	font-size: 18px;
+}
+.products-details-bar > div > span {
+	font-size: 18px;
+}
+.bold {
+	font-weight: 700;
+}
+.sorted-by {
+	border: none;
+	background-color: #eaeaea;
+	font-size: 18px;
+}
+.sorted-by select {
+	border: none;
+	background-color: #eaeaea;
+	font-size: 18px;
+	color: red;
+	-moz-appearance:none;
+}
+
+.suggest-location {
+	color: #a7a7a7;
+}
