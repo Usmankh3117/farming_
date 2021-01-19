@@ -9,12 +9,7 @@ app.use(express.static("express"));// default URL for website
 app.use(express.static(path.join(__dirname, 'farming')));
 app.use('/', function(req,res){
     res.sendFile(path.join(__dirname+'/farming/landing-page.html'));
-    //__dirname : It will resolve to your project folder.
-  });
-
-  // app.get('/add-to-cart', function (req, res) {
-  //   res.sendFile(path.join(__dirname+'/add-to-cart.html'));
-  // });
+});
   
   const server = http.createServer(app);
 
