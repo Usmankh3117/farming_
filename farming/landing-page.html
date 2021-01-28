@@ -26,10 +26,10 @@
             <div class="header">
                 <div class="mg-top-30"></div>
                   <div class="row">
-                    <div class="col-lg-2 col-md-2 col-sm-2">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                       <img src="./dist/assets/img/logo.png" alt="logo" class="logo-img">
                     </div>
-                    <div class="col-lg-7 col-md-7 col-sm-7">
+                    <div class="col-lg-7 col-md-7 col-sm-6 col-xs-6">
                       <div class="hero__search">
                           <div class="hero__search__form">
                               <form action="#">
@@ -38,23 +38,25 @@
                                       <span class="arrow_carrot-down"><i class="fa fa-chevron-down"></i></span>
                                   </div>
                                   <input type="text" placeholder="Search for Products... ">
-                                  <button type="submit" class="site-btn"><i class="fa fa-search" style="font-size: 22px;"></i></button>
+                                  <button type="submit" class="site-btn">
+                                      <i class="fa fa-search"></i>
+                                    </button>
                               </form>
                           </div>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
                       <ul class="list-group list-group-horizontal">
-                          <li class="list-group-item">
-                              <img src="./dist/assets/img/icon1.png" alt="img1">
+                          <li class="list-group-item top-right-img-li">
+                              <img src="./dist/assets/img/icon1.png" alt="img1" class="top-right-img">
                           </i></li>
-                          <li class="list-group-item">
-                            <img src="./dist/assets/img/heart-icon.png" alt="img2">
+                          <li class="list-group-item top-right-img-li">
+                            <img src="./dist/assets/img/heart-icon.png" alt="img2" class="top-right-img">
                           </li>
-                          <li class="list-group-item" style="padding-right: 0px;">
-                            <img src="./dist/assets/img/cart-icon.png" alt="img3">
+                          <li class="list-group-item top-right-img-li">
+                            <img src="./dist/assets/img/cart-icon.png" alt="img3" class="top-right-img">
                           </li>
-                          <li class="list-group-item" style="padding-left: 0px;margin-top: 10px;">
+                          <li class="list-group-item top-right-img-count">
                             ($0)
                           </li>
                         </ul>
@@ -69,19 +71,16 @@
         <div class="container">
             <div class="row mg-top-30"></div>
             <div class="row">
-                <div class="col-lg-10 col-md-10 col-sm-10"></div>
-                <div class="col-lg-2 col-md-2 col-sm-2">
-                  <div class="btn-group currency-change-btn w3-right">
-                      
+                <div class="btn-group currency-change-btn right-aline">      
                       <select class="select-language">
                         <option>French - USD</option>
                         <option>Best Match1</option>
                         <option>Best Match2</option>
                         <option>Best Match3</option>
                         <option>Best Match4</option>
-                    </select></div>
-                    </div>
+                    </select>
                 </div>
+            </div>
             <div class="row mg-top-30"></div>
             </div>
         </div>
@@ -94,9 +93,136 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="dropdown show">
+                        <a class="btn btn-secondary dropdown-toggle hero__categories__all-span" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Categories
+                        </a>
+                      
+                        <div class="dropdown-menu pull-right show" aria-labelledby="dropdownMenuLink">
+                            <ul class="hero__categories-ul">
+                                <li class="hero__categories-ul-li">
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        Today's Value deal
+                                        
+                                    </a>
+                                </li>
+                                <li class="hero__categories-ul-li">
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        From Live stock
+                                        <i class="fa fa-chevron-right category-sec-icon"></i>
+                                    </a>
+                                </li>
+                                <li class="hero__categories-ul-li">
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        Garden Village
+                                        <span class="new">news</span>
+                                    </a>
+                                </li>
+                                <li class="hero__categories-ul-li">
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        Fresh Fruit
+                                        <i class="fa fa-chevron-right category-sec-icon"></i>
+                                    </a>
+                                </li> 
+                                <li class="hero__categories-ul-li">
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        Vegitables
+                                        <span class="new">news</span>
+                                        <i class="fa fa-chevron-right category-sec-icon"></i>
+                                    </a>
+                                </li>
+                                <li class="hero__categories-ul-li">
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        Awesome wheats
+                                        
+                                    </a>
+                                </li>
+                                <li class="hero__categories-ul-li">
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        Agro Machinery
+                                        <i class="fa fa-chevron-right category-sec-icon"></i>
+                                    </a>
+                                </li>
+                                <li class="hero__categories-ul-li">
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        View More Pages
+                                    </a>
+                                </li>
+                        
+                            </ul>
+                        </div>
+                      </div>
                     <div class="hero__categories">
                         <div class="hero__categories__all">
-                            <span>Categories</span>
+                            <span></span>
+                            <!-- <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        Today's Value deal
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        From Live stock
+                                        <i class="fa fa-chevron-right category-sec-icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        Garden Village
+                                        <span class="new">news</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        Fresh Fruit
+                                        <i class="fa fa-chevron-right category-sec-icon"></i>
+                                    </a>
+                                </li> 
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        Vegitables
+                                        <span class="new">news</span>
+                                        <i class="fa fa-chevron-right category-sec-icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        Awesome wheats
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        Agro Machinery
+                                        <i class="fa fa-chevron-right category-sec-icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-star category-icon"></i>
+                                        View More Pages
+                                    </a>
+                                </li>
+                        
+                            </ul> -->
+                            
                         </div>
                     </div>
                 </div>
@@ -120,7 +246,7 @@
                         <li class="list-group-item">
                             <span class="top-menu callus">Call us on toll free (+1)866-540-3229</span>
                         </li>
-                      </ul>
+                    </ul>
                 </div>
             </div>
 
@@ -139,65 +265,7 @@
                         <div class="hero__categories__all">
                             <!-- <span>Categories</span> -->
                         </div>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
-                                    Today's Value deal
-                                    
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
-                                    From Live stock
-                                    <i class="fa fa-chevron-right category-sec-icon"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
-                                    Garden Village
-                                    <span class="new">news</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
-                                    Fresh Fruit
-                                    <i class="fa fa-chevron-right category-sec-icon"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
-                                    Vegitables
-                                    <span class="new">news</span>
-                                    <i class="fa fa-chevron-right category-sec-icon"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
-                                    Awesome wheats
-                                    
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
-                                    Agro Machinery
-                                    <i class="fa fa-chevron-right category-sec-icon"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
-                                    View More Pages
-                                </a>
-                            </li>
-                    
-                        </ul>
+                        
                     </div>
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-9">
