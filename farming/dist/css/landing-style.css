@@ -45,13 +45,39 @@
   categories
 -----------------------*/
 
-.hero {
-    background-color: #cfe9e0;
+.hero__categories {
+	margin-top: -51px;
 }
-.hero__categories__all {
-	/* background: #7fad39; */
+.hero {
+	padding-bottom: 50px;
+}
+
+.hero.hero-normal {
+	padding-bottom: 30px;
+}
+
+.hero.hero-normal .hero__categories {
 	position: relative;
-	/* padding: 0px 0px 18px 14px; */
+}
+
+.hero.hero-normal .hero__categories ul {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 46px;
+	width: 100%;
+	z-index: 9;
+	background: #ffffff;
+}
+
+.hero.hero-normal .hero__search {
+	margin-bottom: 0;
+}
+
+.hero__categories__all {
+	background: #fff;
+	position: relative;
+	padding: 10px 0px 9px 10px;
 	cursor: pointer;
 }
 
@@ -61,28 +87,46 @@
 	margin-right: 10px;
 }
 
-.hero__categories__all-span {
-	font-size: 36px !important;
-    color: #606060 !important;
+.hero__categories__all span {
+	font-size: 22px;
+	font-weight: 700;
+	color: #696969;
 }
+
+.hero__categories ul {
+	/* padding-left: 10px; */
+    padding-top: 10px;
+    background-color: white;
+    /* padding-bottom: 10px; */
+}
+
+.hero__categories ul li {
+	list-style: none;
+	border-bottom: 1px solid #dedede;
+    padding: 4px;
+}
+
+.hero__categories ul li a {
+	font-size: 16px;
+	color: #1c1c1c;
+	line-height: 39px;
+	display: block;
+}
+.hero {
+    background-color: #cfe9e0;
+}
+
 .list-group {
-    margin-bottom: 0px !important;
-    margin-top: 20px !important;
-}
-.hero__categories__all:after {
-	position: absolute;
-	right: 18px;
-	top: 9px;
-	/* content: "3"; */
-	font-family: "ElegantIcons";
-	font-size: 18px;
-	color: #ffffff;
+    margin-bottom: 15px !important;
+    margin-top: 20px;
 }
 .new {
     color: red;
     margin-left: 5%;
 }
-
+.active-cat {
+    color: red !important;
+}
 .hero.hero-normal .hero__categories {
 	position: relative;
 }
@@ -167,7 +211,7 @@
     color: #646161;
     line-height: 12px;
 }
-.featured__details > span {
+.featured__details > .details {
     font-size: 14px;
     color: #aaa1a1;
     line-height: 13px;
@@ -519,6 +563,15 @@ li > a:after { content:  ' +'; }
 li > a:only-child:after { content: ''; }
 
 
+.last-images1 {
+	padding: 5px !important;
+}
+.last-images {
+	padding: 1px !important;
+}
+.cat-outer-div {
+	padding: 1px !important;
+}
 /* Media Queries
 --------------------------------------------- */
 
