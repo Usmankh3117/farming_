@@ -866,11 +866,125 @@
 	.client1 {
 		width: 98% !important;
 	}
+	.order-summary {
+		font-size: 20px !important;
+	}
+	.sub-total, .Shipping {
+		font-size: 16px !important;
+	}
+	.total {
+		font-size: 16px;
+	}
+	.product-details > .details {
+		font-size: 12px !important;
+	}
+	.product-details > .product-price-tag {
+		font-size: 20px !important;
+	}
+	.discount {
+		font-size: 14px !important;
+	}
+	.shopping-cart-heading {
+		font-size: 24px !important;
+	}
+	.suppliers, .product-name {
+		font-size: 20px !important;
+	}
+	.leave-message > a, .get-coupons > a {
+		font-size: 16px !important;
+	}
+	.product-details > .select-options {
+		width: 100% !important;
+	}
+	.get-discount {
+		margin-top: 14px !important;
+	}
+	.get-discount > .count {
+		margin: 0px 0px !important;
+		padding: 1px 14px !important;
+	}
+	.order-summary-form > .voucher-code {
+		width: 60% !important;
+		font-size: 10px !important; 
+    	padding: 11px !important;
+	}
+	.order-summary-form > .apply {
+		margin: 0px 5px !important;
+	}
+	.order-summary-form > .check-out {
+		font-size: 14px !important;
+	}
+	.products-details-bar > span {
+		font-size: 14px !important;
+	}
+	.products-details-bar > div > span {
+		font-size: 15px !important;
+	}
+	.sorted-by {
+		font-size: 14px !important;
+	}
+		.mini-img {
+			margin-right: 0px !important;
+		}
+	.category-input {
+		width: 80% !important; 
+	}
+	.category-input-min-max {
+		width: 78px !important; 
+	}
+	.categories-heading {
+		font-size: 16px !important;
+	}
+	.login-form > form > .input-group > span {
+		font-size: 20px !important;
+	}
+	.login-form > form > .input-group > .form-control {
+		font-size: 14px !important;
+		margin: 6px 0px 0px 0px !important;
+	}
+	.form-heading > h2 {
+		font-size: 20px !important;
+	}
+	.login-form > form > .input-group1 > label {
+		font-size: 15px !important;
+	}
+	.submit-btn > .submit {
+		font-size: 16px !important; 
+	}
+	.create-one-account {
+		font-size: 10px !important;
+	}
+	.list-group-item {
+		margin-bottom: 0px !important;
+	}
+	.footer-icon-signin > i, .footer-icon > i {
+		font-size: 16px !important; 
+		margin: 0px 10px !important;
+	}
+	.subscribe_span {
+		font-size: 12px !important;
+		margin-right: 10px !important;
+	}
+	.footer-form {
+		margin-top: 0px !important;
+	}
 }
 
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+	.minus, .plus {
+		margin-left: 36px;
+	}
+	.products-details-bar > span {
+		font-size: 14px !important;
+	}
+	.products-details-bar > div > span {
+		font-size: 15px !important;
+	}
+	.sorted-by {
+		font-size: 14px !important;
+	}
 	.featured__details__heading {
 		font-size: 16px;
 	}
@@ -1181,6 +1295,43 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+	.minus, .plus {
+		margin-left: 36px;
+	}
+	.mini-img {
+		width: 38px !important;
+		margin-right: 0px !important;
+	}
+	.products-details-bar > span {
+		font-size: 12px !important;
+	}
+	.products-details > ul > li {
+		font-size: 12px !important;
+	}
+	.categories-heading {
+		font-size: 14px !important;
+	}
+	.supplier-type, .product-type {
+		font-size: 12px !important;
+	}
+	.suggested-locations {
+		font-size: 10px !important;
+	}
+	.category-checkbox {
+		transform: scale(1) !important;
+	}
+	.category-input {
+		width: 100% !important;
+	}
+	.Certification-Disciliner {
+		font-size: 10px;
+	}
+	.products-details-bar > div > span {
+		font-size: 12px !important;
+	}
+	.sorted-by {
+		font-size: 10px !important;
+	}
 	.featured__details__heading {
 		font-size: 16px;
 	}
@@ -1298,5 +1449,38 @@
 	}
 	.goat, .spray, .tralar {
 		width: 98% !important;
+	}
+	.form-heading > h2 {
+		font-size: 14px !important;
+	}
+	.login-form > form > .input-group {
+		margin: 0px !important;
+	}
+	.input-group-addon {
+		padding: 0px !important;
+	}
+	.login-form > form > .input-group > span {
+		font-size: 14px !important;
+	}
+	.login-form > form > .input-group > .form-control {
+		font-size: 12px !important;
+		margin: 0px !important;
+	}
+	.login-form > form > .input-group1 {
+		font-size: 8px !important;
+		margin-top: 16px !important;
+	}
+	.submit-btn > .submit {
+		font-size: 10px !important;
+		padding: 0px 20px 0px 20px !important;
+	}
+	.create-one-account {
+		font-size: 7px !important;
+	}
+	.please-login {
+		font-size: 14px !important;
+	}
+	.mg-top-30-si {
+		margin-top: 0px !important;
 	}
 }
