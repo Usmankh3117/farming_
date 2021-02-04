@@ -968,11 +968,25 @@
 	.footer-form {
 		margin-top: 0px !important;
 	}
+
+	.top-header-user-account {
+		display: none !important;
+	}
+	.help {
+		margin: 20px 5px 0px 5px !important;
+	}
 }
 
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+
+	.top-header-user-account {
+		display: none !important;
+	}
+	.help {
+		margin: 20px 0px 0px 0px !important;
+	}
 	.minus, .plus {
 		margin-left: 36px;
 	}
@@ -1482,5 +1496,16 @@
 	}
 	.mg-top-30-si {
 		margin-top: 0px !important;
+	}
+	.my-farming {
+		font-size: 22px !important;
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+	}
+	.top-header-user-account {
+		display: none !important;
+	}
+	.help {
+		margin: 20px 0px 0px 0px !important;
 	}
 }
