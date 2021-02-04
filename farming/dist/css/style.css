@@ -532,11 +532,82 @@
 	.container {
 		max-width: 1170px;
 	}
+	.left-side-div {
+		width: 28% !important;
+	}
+	.search-input {
+		height: 52px !important;
+		padding: 1px 27px 1px 40px !important;
+		font-size: 20px !important;
+		line-height: 1.42857143;
+		border: 1px solid #cccccc !important;
+		border-radius: 0px !important;
+	}
 }
 
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.search-input {
+		height: 52px !important;
+		padding: 1px 27px 1px 40px !important;
+		font-size: 20px !important;
+		line-height: 1.42857143;
+		border: 1px solid #cccccc !important;
+		border-radius: 0px !important;
+	}
+	.left-side-div {
+		width: 34% !important;
+	}
+	.right-side-div {
+		margin-left: 20px !important;
+	}
+	.left-user-list {
+		height: 372px !important;
+		width: 310px !important;
+	}
+	.chatting-outer-div {
+		height: 500px !important;
+		width: 340px !important;
+		margin-left: -30px !important;
+	}
+	.msg-user-detail-right {
+		margin-top: 3px !important;
+		margin-right: 0px !important;
+		font-size: 11px !important;
+	}
+	.msg-user-name-right {
+		margin-top: 3px !important;
+		font-size: 15px !important;
+		margin-left: -20px !important;
+	}
+
+	.msg-user-name { 
+		font-size: 18px !important; 
+	}
+	.msg-user-detail {
+		font-size: 15px !important;
+	}
+	.chat-with {
+		float: right;
+	}
+	.chat-add-people {
+		float: right;
+	}
+	.chat-name {
+		font-size: 18px !important;
+	}
+	.chat-msg {
+		font-size: 14px !important;
+	}
+	.chat-input {
+		width: 45% !important;
+	}
+	.send-btn {
+		font-size: 12px !important;
+		padding: 3px 15px 3px 15px !important;
+		margin: 0px 5px !important;
+	}
 	.vegitables {
 		line-height: 15px !important;
 		font-size: 19px !important;
@@ -582,6 +653,88 @@
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.left-user-list {
+		height: 344px !important;
+		width: 195px !important;
+		margin-left: -15px !important;
+	}
+	.msg-user-name {
+		font-size: 16px !important;
+	}
+	.left-msg-div {
+		padding: 0px !important;
+		width: 100% !important;
+	}
+	.msg-user-detail {
+		font-size: 13px !important;
+	}
+	.msg-date {
+		font-size: 10px !important;
+	}
+	.looking-for-older-msg {
+		font-size: 10px !important;
+	}
+	.view-all-people {
+		font-size: 10px !important;
+	}
+	.chat-date {
+		font-size: 11px !important;
+	}
+	.chat-with {
+		font-size: 12px !important;
+	}
+	.chat-add-people {
+		font-size: 8px !important;
+	}
+	.chat-msg, .chat-name {
+		font-size: 10px !important;
+	}
+	.chatting-outer-div {
+		height: 315px !important;
+		width: 296px !important;
+	}
+	.msg-user-name-right {
+		font-size: 10px !important;
+	}
+	.msg-user-detail-right {
+		font-size: 9px !important;
+	}
+	.message-top-bar {
+		padding: 10px 0px !important;
+		margin-top: 10px !important;
+	}
+	.message-top-bar > a > .outer-icon {
+		font-size: 12px !important;
+		border: 1px solid !important;
+		padding: 4px 6px !important;
+	}
+	.message-top-bar > a > .inner-icon {
+		font-size: 13px !important;
+		padding: 6px 8px !important;
+		margin-top: 0px !important;
+	}
+	.search-input {
+		height: 33px !important;
+		padding: 0px 0px 0px 26px !important; 
+		font-size: 15px !important;
+	}
+	.chat-input {
+		width: 44% !important;
+	}
+	.chat-bottom-icon {
+		font-size: 13px !important; 
+	}
+	.send-btn {
+		font-size: 11px !important;
+		padding: 3px 10px 3px 10px !important;
+		margin: 0px 5px !important;
+	}
+	.form-control-feedback {
+		right: 1px !important;
+		width: 15px !important;
+		height: 15px !important;
+		line-height: 13px !important;
+	}
 	.footer-submit-btn {
 		top: 1px;
 		right: 4px;
@@ -980,7 +1133,29 @@
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
-
+	.display-none-for-mini-screen {
+		display: none;
+	}
+	.has-search .form-control-feedback {
+		left: 0px !important;
+		top: 0px !important;  
+	}
+	.search-input {
+		padding: 0px 0px 0px 30px !important; 
+	}
+	.chatting-outer-div {
+		margin-left: 0px !important;
+	}
+	.right-side-div {
+		margin-left: 0px !important;
+		margin-top: 30px !important;
+	}
+	.chat-input {
+		width: 47% !important;
+	}
+	.chatting-outer-div {
+		width: 100% !important;
+	}
 	.top-header-user-account {
 		display: none !important;
 	}
