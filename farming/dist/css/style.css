@@ -548,6 +548,40 @@
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.tabs {
+		min-height: 830px !important;
+	}
+	.top-most-header-list {
+		font-size: 16px !important;
+	}
+	.top-header-list {
+		font-size: 15px !important;
+	}
+	.my-favourite {
+		font-size: 20px !important;
+	}
+	.notification-div {
+		font-size: 16px !important;
+	}
+	.tab label {
+		font-size: 16px !important;
+		padding: 11px !important;
+	}
+	.prod-header {
+		font-size: 20px !important;
+	}
+	.prod-detail {
+		font-size: 14px !important;
+	}
+	.prod-price {
+		font-size: 19px !important;
+	}
+	.prod-ammount {
+		font-size: 16px !important;
+	}
+	.contact-supplier, .chat-now {
+		font-size: 14px !important;
+	}
 	.search-input {
 		height: 52px !important;
 		padding: 1px 27px 1px 40px !important;
@@ -653,6 +687,58 @@
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.tabs {
+		min-height: 720px !important;
+	}
+	.top-most-header-list {
+		font-size: 13px !important;
+	}
+	.top-header-list {
+		margin-right: 5px !important;
+		font-size: 12px !important;
+	}
+	.my-favourite {
+		font-size: 18px !important;
+	}
+	.notification-div {
+		font-size: 14px !important;
+	}
+	.tab label {
+		font-size: 14px !important;
+		padding: 10px !important;
+	}
+	.prod-header {
+		font-size: 18px !important;
+	}
+	.prod-detail {
+		font-size: 12px !important;
+	}
+	.prod-price {
+		font-size: 16px !important;
+	}
+	.prod-ammount {
+		font-size: 13px !important;
+	}
+	.contact-supplier {
+		font-size: 12px !important;
+		padding: 7px 3px !important;
+	}
+	.contact-supplier > i {
+		font-size: 12px !important;
+	}
+	.chat-now {
+		font-size: 12px !important;
+		padding: 7px 23px !important;
+	}
+	.product-img {
+		width: 100% !important;
+	}
+	.mg-top-30-mf {
+		margin-top: 0px !important;
+	}
+	.chat-now > i {
+		font-size: 12px !important;
+	}
 	.left-user-list {
 		height: 344px !important;
 		width: 195px !important;
@@ -1133,6 +1219,58 @@
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+	.tabs {
+		min-height: 515px !important;
+	}
+	.top-most-header-list {
+		font-size: 13px !important;
+	}
+	.top-header-list {
+		margin-right: 5px !important;
+		font-size: 12px !important;
+	}
+	.my-favourite {
+		font-size: 18px !important;
+	}
+	.notification-div {
+		font-size: 14px !important;
+	}
+	.tab label {
+		font-size: 14px !important;
+		padding: 10px !important;
+	}
+	.prod-header {
+		font-size: 18px !important;
+	}
+	.prod-detail {
+		font-size: 12px !important;
+	}
+	.prod-price {
+		font-size: 16px !important;
+	}
+	.prod-ammount {
+		font-size: 13px !important;
+	}
+	.contact-supplier {
+		font-size: 12px !important;
+		padding: 7px 3px !important;
+	}
+	.contact-supplier > i {
+		font-size: 12px !important;
+	}
+	.chat-now {
+		font-size: 12px !important;
+		padding: 7px 23px !important;
+	}
+	.product-img {
+		width: 100% !important;
+	}
+	.mg-top-30-mf {
+		margin-top: 0px !important;
+	}
+	.chat-now > i {
+		font-size: 12px !important;
+	}
 	.display-none-for-mini-screen {
 		display: none;
 	}
@@ -1484,6 +1622,79 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+	.tabs {
+		min-height: 515px !important;
+	}
+	.top-most-header-list {
+		font-size: 13px !important;
+	}
+	.top-header-list {
+		margin-right: 5px !important;
+		font-size: 12px !important;
+		padding: 5px !important;
+	}
+	.my-favourite {
+		font-size: 18px !important;
+	}
+	.notification-div {
+		font-size: 12px !important;
+	}
+	.tab-header {
+		padding: 6px 0px !important;
+		font-size: 7px !important;
+	}
+	.top-checkbox {
+		height: 15px !important;
+		width: 16px !important;
+	}
+	.tab label {
+		font-size: 14px !important;
+		padding: 10px !important;
+	}
+	.prod-header {
+		font-size: 13px !important;
+    	margin: 0px !important;
+	}
+	.prod-detail {
+		font-size: 8px !important;
+    	margin: 0px !important;
+	}
+	.prod-price {
+		font-size: 11px !important;
+	}
+	.prod-ammount {
+		font-size: 8px !important;
+    	margin: 0px !important;
+	}
+	.contact-supplier {
+		font-size: 6px !important;
+		padding: 1px 1px !important;
+		margin: 0px !important;
+	}
+	.contact-supplier > i {
+		font-size: 8px !important;
+	}
+	.chat-now {
+		font-size: 7px !important;
+		padding: 1px 8px !important;
+		margin: 0px !important;
+	}
+	.chat-now > i {
+		font-size: 8px !important;
+	}
+	.right {
+		float: left !important;
+	}
+	.product-img {
+		width: 100% !important;
+	}
+	.mg-top-30-mf {
+		margin-top: 0px !important;
+	}
+
+
+
+
 	.minus, .plus {
 		margin-left: 36px;
 	}
