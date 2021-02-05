@@ -1,0 +1,28 @@
+/* landing page css */
+.select-language {
+	border: none;
+	/* margin: 12px; */
+	background-color: #fff;
+	font-size: 18px;
+	color: #a29e9f;
+}
+.currency-change-btn {
+    padding-left: 20px;
+}
+
+.top-menu {
+    font-size: 20px;
+    color: #a29d9c;
+    line-height: 8px;
+    display: block;
+    text-decoration: none !important;
+}
+.active-menu {
+    color: #7fad39;
+}
+.list-group-horizontal {
+    margin-top: 0%;
+}
+.contact-top-header-list {
+    margin: 3% 20%;
+}

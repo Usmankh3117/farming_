@@ -548,6 +548,17 @@
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.signup-img {
+		position: absolute;
+		bottom: 7% !important;
+		left: 17% !important;
+		color: white;
+		background-color: #4da54c;
+		font-size: 20px !important;
+	}
+	.login-form > form > .input-group > .form-control {
+		font-size: 16px !important; 
+	}
 	.tabs {
 		min-height: 830px !important;
 	}
@@ -687,6 +698,9 @@
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.signup-img {
+		font-size: 14px !important;
+	}
 	.tabs {
 		min-height: 720px !important;
 	}
@@ -1178,8 +1192,11 @@
 		font-size: 20px !important;
 	}
 	.login-form > form > .input-group > .form-control {
-		font-size: 14px !important;
-		margin: 6px 0px 0px 0px !important;
+		font-size: 11px !important;
+		margin: 0px 0px 0px 0px !important;
+	}
+	.fa-envelope {
+		font-size: 15px !important;
 	}
 	.form-heading > h2 {
 		font-size: 20px !important;
@@ -1219,6 +1236,9 @@
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+	.signup-img {
+		font-size: 8px !important;
+	}
 	.tabs {
 		min-height: 515px !important;
 	}
@@ -1622,6 +1642,15 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+	.signup-img {
+		font-size: 8px !important;
+	}
+	.login-form > form > .input-group {
+		margin: 1px !important;
+	}
+	.fa-envelope {
+		font-size: 13px !important;
+	}
 	.tabs {
 		min-height: 515px !important;
 	}
@@ -1851,7 +1880,7 @@
 		width: 98% !important;
 	}
 	.form-heading > h2 {
-		font-size: 14px !important;
+		font-size: 13px !important;
 	}
 	.login-form > form > .input-group {
 		margin: 0px !important;
@@ -1863,9 +1892,12 @@
 		font-size: 14px !important;
 	}
 	.login-form > form > .input-group > .form-control {
-		font-size: 12px !important;
+		font-size: 8px !important;
 		margin: 0px !important;
 	}
+	.fa-envelope {
+		font-size: 11px !important;
+	}	
 	.login-form > form > .input-group1 {
 		font-size: 8px !important;
 		margin-top: 16px !important;
