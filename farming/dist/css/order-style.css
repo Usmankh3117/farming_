@@ -1,0 +1,43 @@
+/* signin css */
+.mg-top-15-si {
+	margin-top: 15px;
+}
+.mg-top-30-si {
+	margin-top: 30px;
+}
+.top-header-user-account {
+    font-size: 20px !important;
+    color: #545454;
+    margin: 5px;
+}
+
+.list-group-horizontal {
+    margin-top: 1.5%;
+}
+
+.my-farming {
+    color: #545454;
+}
+
+.my-account {
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #545454;
+}
+.help {
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    margin: 20px;
+    color: #545454;
+}
+.language {
+    background-color: #fff;
+    font-size: 18px;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: #545454;
+    padding: 2px 18px 2px 18px;
+}
