@@ -548,6 +548,82 @@
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.order-list ul li a {
+		font-size: 18px !important;
+		padding: 4px !important;
+	}
+	.order-list ul li a i {
+		font-size: 20px !important;
+	}
+	.order-title {
+		font-size: 24px !important;
+	}
+	.draft-trade-accorance-order {
+		font-size: 15px !important;
+	}
+	.order-search__form > form > .site-btn > i {
+		font-size: 17px !important;
+	}
+	.order-notification-div {
+		font-size: 12px !important;
+		padding: 10px !important;
+		margin: 10px 0px !important;
+	}
+	.order-notification-div > i {
+		font-size: 20px !important;
+		margin: 0px 0px !important;
+	}
+	.order-controls-list {
+		padding: 0px !important;
+	}
+	.order-controls ul li {
+		font-size: 12px !important;
+		margin-right: 23px !important;
+	}
+	.order-search__form form input {
+		height: 33px !important;
+		font-size: 8px !important;
+	}
+	.col-form-label {
+		font-size: 11px !important;
+	}
+	.order-search-select {
+		font-size: 11px !important;
+		padding: 1px !important;
+		margin-left: -20px !important;
+	}
+	.dispatch-checkbox {
+		height: 10px !important;
+		width: 11px !important;
+	}
+	.Collaspe-Search-Conditions-div {
+		margin-top: 5px !important;
+		margin-bottom: 5px !important;
+	}
+	.Collaspe-Search-Conditions, .reset-all {
+		font-size: 11px !important;
+	}
+	.search-bottom-list {
+		padding: 1px 0px !important;
+		border-radius: 5px !important;
+	}
+	.search-bottom-list > li {
+		margin: 0px 0px !important;
+		font-size: 15px !important;
+	}
+	.order-pagination > .pagination > .page-item > .p-n {
+		font-size: 12px !important;
+	}
+	.order-pagination > .pagination > .page-item > .number {
+		font-size: 14px !important;
+	}
+	.search-dispatch {
+		font-size: 8px !important;
+	}
+
+
+
+
 	.connect-with-detail {
 		padding-top: 22px !important;
 		padding-bottom: 15px !important;
@@ -708,6 +784,89 @@
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.order-list ul li a {
+		font-size: 18px !important;
+		padding: 0px !important;
+	}
+	.order-list ul li a i {
+		font-size: 18px !important;
+	}
+	.order-title {
+		font-size: 22px !important;
+	}
+	.draft-trade-accorance-order {
+		font-size: 14px !important;
+	}
+	.right-top-order-head {
+		margin-bottom: 15px !important;
+	}
+	.right-order-list {
+		margin-top: 13px !important;
+	}
+	
+	.all-details-div {
+		margin-bottom: 15px !important;
+	} 
+	.order-search__form > form > .site-btn > i {
+		font-size: 16px !important;
+	}
+	.order-notification-div {
+		font-size: 11px !important;
+		padding: 5px !important;
+		margin: 5px 0px !important;
+	}
+	.order-notification-div > i {
+		font-size: 18px !important;
+		margin: 0px 0px !important;
+	}
+	.order-controls-list {
+		padding: 0px !important;
+	}
+	.order-controls ul li {
+		font-size: 10px !important;
+		margin-right: 10px !important;
+	}
+	.order-search__form form input {
+		height: 33px !important;
+		font-size: 8px !important;
+	}
+	.col-form-label {
+		font-size: 11px !important;
+	}
+	.order-search-select {
+		font-size: 11px !important;
+		padding: 1px !important;
+		margin-left: -20px !important;
+	}
+	.dispatch-checkbox {
+		height: 10px !important;
+		width: 11px !important;
+	}
+	.Collaspe-Search-Conditions-div {
+		margin-top: 5px !important;
+		margin-bottom: 5px !important;
+	}
+	.Collaspe-Search-Conditions, .reset-all {
+		font-size: 11px !important;
+	}
+	.search-bottom-list {
+		padding: 1px 0px !important;
+		border-radius: 5px !important;
+	}
+	.search-bottom-list > li {
+		margin: 0px 10px !important;
+		font-size: 12px !important;
+	}
+	.order-pagination > .pagination > .page-item > .p-n {
+		font-size: 12px !important;
+	}
+	.order-pagination > .pagination > .page-item > .number {
+		font-size: 14px !important;
+	}
+	.search-dispatch {
+		font-size: 8px !important;
+	}
+
 	.connect-with-detail {
 		padding-top: 22px !important;
 		padding-bottom: 15px !important;
@@ -1268,6 +1427,90 @@
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+	.order-list ul li a {
+		font-size: 18px !important;
+		padding: 0px !important;
+	}
+	.order-list ul li a i {
+		font-size: 18px !important;
+	}
+	.order-title {
+		font-size: 22px !important;
+	}
+	.draft-trade-accorance-order {
+		font-size: 14px !important;
+	}
+	.right-top-order-head {
+		margin-bottom: 15px !important;
+	}
+	.right-order-list {
+		margin-top: 13px !important;
+	}
+	
+	.all-details-div {
+		margin-bottom: 15px !important;
+	} 
+	.order-search__form > form > .site-btn > i {
+		font-size: 16px !important;
+	}
+	.order-notification-div {
+		font-size: 11px !important;
+		padding: 5px !important;
+		margin: 5px 0px !important;
+	}
+	.order-notification-div > i {
+		font-size: 18px !important;
+		margin: 0px 0px !important;
+	}
+	.order-controls-list {
+		padding: 0px !important;
+	}
+	.order-controls ul li {
+		font-size: 10px !important;
+		margin-right: 10px !important;
+	}
+	.order-search__form form input {
+		height: 33px !important;
+		font-size: 8px !important;
+	}
+	.col-form-label {
+		font-size: 11px !important;
+	}
+	.order-search-select {
+		font-size: 11px !important;
+		padding: 1px !important;
+		margin-left: -20px !important;
+	}
+	.dispatch-checkbox {
+		height: 10px !important;
+		width: 11px !important;
+	}
+	.Collaspe-Search-Conditions-div {
+		margin-top: 5px !important;
+		margin-bottom: 5px !important;
+	}
+	.Collaspe-Search-Conditions, .reset-all {
+		font-size: 11px !important;
+	}
+	.search-bottom-list {
+		padding: 1px 0px !important;
+		border-radius: 5px !important;
+	}
+	.search-bottom-list > li {
+		margin: 0px 10px !important;
+		font-size: 12px !important;
+	}
+	.order-pagination > .pagination > .page-item > .p-n {
+		font-size: 12px !important;
+	}
+	.order-pagination > .pagination > .page-item > .number {
+		font-size: 14px !important;
+	}
+	.search-dispatch {
+		font-size: 8px !important;
+	}
+
+
 	.connect-with-detail {
 		padding-top: 22px !important;
 		padding-bottom: 15px !important;
@@ -1696,6 +1939,93 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+	.order-list ul li a {
+		font-size: 18px !important;
+		padding: 0px !important;
+	}
+	.order-list ul li a i {
+		font-size: 18px !important;
+	}
+	.order-title {
+		font-size: 22px !important;
+	}
+	.draft-trade-accorance-order {
+		font-size: 14px !important;
+	}
+	.right-top-order-head {
+		margin-bottom: 15px !important;
+	}
+	.right-order-list {
+		margin-top: 13px !important;
+	}
+	
+	.all-details-div {
+		margin-bottom: 15px !important;
+	} 
+	.order-search__form > form > .site-btn > i {
+		font-size: 16px !important;
+	}
+	.order-notification-div {
+		font-size: 11px !important;
+		padding: 5px !important;
+		margin: 5px 0px !important;
+	}
+	.order-notification-div > i {
+		font-size: 18px !important;
+		margin: 0px 0px !important;
+	}
+	.order-controls-list {
+		padding: 0px !important;
+	}
+	.order-controls ul li {
+		font-size: 10px !important;
+		margin-right: 10px !important;
+	}
+	.order-search__form form input {
+		height: 33px !important;
+		font-size: 8px !important;
+	}
+	.col-form-label {
+		font-size: 11px !important;
+	}
+	.order-search-select {
+		font-size: 11px !important;
+		padding: 1px !important;
+		margin-left: -20px !important;
+	}
+	.dispatch-checkbox {
+		height: 10px !important;
+		width: 11px !important;
+	}
+	.Collaspe-Search-Conditions-div {
+		margin-top: 5px !important;
+		margin-bottom: 5px !important;
+	}
+	.Collaspe-Search-Conditions, .reset-all {
+		font-size: 11px !important;
+	}
+	.search-bottom-list {
+		padding: 1px 0px !important;
+		border-radius: 5px !important;
+	}
+	.search-bottom-list > li {
+		margin: 0px 10px !important;
+		font-size: 12px !important;
+	}
+	.order-pagination > .pagination > .page-item > .p-n {
+		font-size: 12px !important;
+	}
+	.order-pagination > .pagination > .page-item > .number {
+		font-size: 14px !important;
+	}
+	.search-dispatch {
+		font-size: 8px !important;
+	}
+	.empty-li {
+		display: none !important;
+	}
+
+
 	.contact-top-header-list {
 		margin: 0% 0% !important;
 	}
