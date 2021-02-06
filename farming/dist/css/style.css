@@ -548,6 +548,16 @@
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.connect-with-detail {
+		padding-top: 22px !important;
+		padding-bottom: 15px !important;
+	}
+	.top-right-img {
+		width: 68% !important;
+	}
+	.connect-with-p {
+		margin-bottom: 0px !important;
+	}
 	.signup-img {
 		position: absolute;
 		bottom: 7% !important;
@@ -698,6 +708,28 @@
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.connect-with-detail {
+		padding-top: 22px !important;
+		padding-bottom: 15px !important;
+	}
+	.top-right-img {
+		width: 68% !important;
+	}
+	.connect-with-p {
+		margin-bottom: 0px !important;
+	}
+	.connect-with-head {
+		font-size: 15px !important;
+	}
+	.connect-with-p {
+		font-size: 11px !important;
+	}
+	.connect-with-mini-header {
+		font-size: 14px !important;
+	}
+	.call-us-nbr {
+		margin-bottom: 54px !important;
+	}
 	.signup-img {
 		font-size: 14px !important;
 	}
@@ -1236,6 +1268,28 @@
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+	.connect-with-detail {
+		padding-top: 22px !important;
+		padding-bottom: 15px !important;
+	}
+	.top-right-img {
+		width: 68% !important;
+	}
+	.connect-with-p {
+		margin-bottom: 0px !important;
+	}
+	.connect-with-head {
+		font-size: 15px !important;
+	}
+	.connect-with-p {
+		font-size: 11px !important;
+	}
+	.connect-with-mini-header {
+		font-size: 14px !important;
+	}
+	.call-us-nbr {
+		margin-bottom: 54px !important;
+	}
 	.signup-img {
 		font-size: 8px !important;
 	}
@@ -1642,6 +1696,15 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+	.contact-top-header-list {
+		margin: 0% 0% !important;
+	}
+	.list-group-item {
+		padding: 7px 8px !important;
+	}
+	.connect-with-heading {
+		font-size: 24px !important;
+	}
 	.signup-img {
 		font-size: 8px !important;
 	}
