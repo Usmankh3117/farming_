@@ -45,7 +45,34 @@
 }
 
 .order-list {
-	margin-top: -51px;
+	/* margin-top: -51px; */
+}
+.order-left-top-button-list-li {
+    /* text-align: center; */
+}
+.order-left-top-button-list {
+    padding: 1px 10px;
+    font-size: 18px;
+    background-color: #777777;
+    border-radius: 50px;
+    width: 70%;
+    /* text-align: center; */
+    margin: 10px 50px;
+}
+.order-list-btn-active {
+    background-color: green;
+    border: 1px solid green;
+    padding: 5px 50px 5px 51px;
+    border-radius: 50px;
+    margin-left: -10px;
+    color: #fff;
+
+}
+.order-list-btn {
+    margin-left: 40px;
+    background-color: #777777;
+    border: 1px solid #777777;
+    color: #fff;
 }
 .empty-li {
     padding: 15px !important;

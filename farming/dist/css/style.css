@@ -561,6 +561,10 @@
 	.draft-trade-accorance-order {
 		font-size: 15px !important;
 	}
+	.order-left-top-button-list {
+		width: 100% !important;
+		margin: 0px !important; 
+	}
 	.order-search__form > form > .site-btn > i {
 		font-size: 17px !important;
 	}
@@ -784,6 +788,16 @@
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.order-left-top-button-list {
+		width: 100% !important;
+		margin: 0px !important; 
+	}
+	.order-list-btn {
+		 margin-left: 0px !important;
+	}
+	.order-list-btn-active {
+		padding: 5px 40px 5px 41px !important;
+	}
 	.order-list ul li a {
 		font-size: 18px !important;
 		padding: 0px !important;
@@ -1427,6 +1441,16 @@
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+	.order-left-top-button-list {
+		/* width: 100% !important; */
+		margin: 0px !important; 
+	}
+	.order-list-btn {
+		 margin-left: 0px !important;
+	}
+	.order-list-btn-active {
+		padding: 5px 40px 5px 41px !important;
+	}
 	.order-list ul li a {
 		font-size: 18px !important;
 		padding: 0px !important;
@@ -1939,6 +1963,16 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+	.order-left-top-button-list {
+		/* width: 100% !important; */
+		margin: 10px 50px !important;
+	}
+	.order-list-btn {
+		 margin-left: 0px !important;
+	}
+	.order-list-btn-active {
+		padding: 5px 40px 5px 41px !important;
+	}
 	.order-list ul li a {
 		font-size: 18px !important;
 		padding: 0px !important;
@@ -2309,7 +2343,7 @@
 		margin-top: 0px !important;
 	}
 	.my-farming {
-		font-size: 22px !important;
+		font-size: 18px !important;
 		margin-top: 0px !important;
 		margin-bottom: 0px !important;
 	}
