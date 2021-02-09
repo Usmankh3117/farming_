@@ -13,6 +13,11 @@
   <title>Farming</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="icon" href="./dist/assets/img/logo.png" type="image/icon type">
+  <script>
+      function goto_uspage(){
+        window.location.href = "./contact-us.html";
+      }
+  </script>
 </head>
 <body>
     <!-- header section starts -->
@@ -22,38 +27,47 @@
                 <div class="mg-top-30"></div>
                   <div class="row">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
-                      <img src="./dist/assets/img/logo.png" alt="logo" class="logo-img">
+                      <img src="./dist/assets/img/logo.png" alt="logo" class="logo-img" onclick="goto_home_page();">
                     </div>
                     <div class="col-lg-7 col-md-6 col-sm-6 col-xs-9">
                         <ul class="list-group contact-top-header-list">
                             <li class="list-group-item">
-                                <a href="#" class="top-menu active-menu">Home</a>
-                            </i></li>
+                                <a href="./landing-page.html" class="top-menu active-menu">Home</a>
+                            </i>
                             <li class="list-group-item">
-                                <a href="#" class="top-menu">Pages</a>
+                                <a href="./news.html" class="top-menu">Pages</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#" class="top-menu">Blog</a>
+                                <a href="./partner-programme.html" class="top-menu">Blog</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#" class="top-menu">Shop</a>
+                                <a href="./product-categories.html" class="top-menu">Shop</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="#" class="top-menu">Elements</a>
+                                <a href="./product-categories.html" class="top-menu">Elements</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
                       <ul class="list-group list-group-horizontal">
-                          <li class="list-group-item top-right-img-li">
+                        <li class="list-group-item top-right-img-li">
+                            <a href="./checkout.html">
                               <img src="./dist/assets/img/icon1.png" alt="img1" class="top-right-img">
-                          </i></li>
-                          <li class="list-group-item top-right-img-li">
-                            <img src="./dist/assets/img/heart-icon.png" alt="img2" class="top-right-img">
-                          </li>
-                          <li class="list-group-item top-right-img-li">
-                            <img src="./dist/assets/img/cart-icon.png" alt="img3" class="top-right-img">
-                          </li>
+                            </a>
+                            
+                        </i>
+                        <li class="list-group-item top-right-img-li">
+                              <a href="./my-favourite.html">
+                                  <img src="./dist/assets/img/heart-icon.png" alt="img2" class="top-right-img">
+                              </a>
+                          
+                        </li>
+                        <li class="list-group-item top-right-img-li">
+                            <a href="./add-to-cart.html">
+                              <img src="./dist/assets/img/cart-icon.png" alt="img3" class="top-right-img">
+                            </a>
+                          
+                        </li>
                           <li class="list-group-item top-right-img-count">
                             ($0)
                           </li>
@@ -109,7 +123,7 @@
                             <i class="fa fa-comments"></i>
                             <p class="contact-customer-heading"> Contact Customer Support</p>
                             <p class="contact-customer-details"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consectetur quo corporis.</p>
-                            <button class="contact-customer-link">Contact Support</button>
+                            <button class="contact-customer-link" onclick="goto_uspage();">Contact Support</button>
                         </div>
                     </div>
                 </div>
