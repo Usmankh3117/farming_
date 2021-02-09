@@ -1,0 +1,250 @@
+/* signin css */
+.mg-top-15-si {
+	margin-top: 15px;
+}
+.mg-top-30-si {
+	margin-top: 30px;
+}
+.top-header-user-account {
+    font-size: 20px !important;
+    color: #545454;
+    margin: 5px;
+}
+.top-header-user-account {
+    color: green;
+}
+.fa-crown {
+    color: green;
+}
+.list-group-horizontal {
+    margin-top: 1.5%;
+}
+
+.my-farming {
+    color: #545454;
+}
+
+.my-account {
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #545454;
+}
+.help {
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    margin: 20px;
+    color: #545454;
+}
+.language {
+    background-color: #fff;
+    font-size: 18px;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: #545454;
+    padding: 2px 18px 2px 18px;
+}
+.partner-programme-top-img-details-div {
+    position: relative;   
+}
+.partner-programme-top-img-details {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 40%;
+}.partner-programme-top-img-details .btn-list {
+    margin: 5%;
+}
+.partner-programme-top-img-details .btn-list .join-us {
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    padding: 8px 38px;
+    margin: 15px;
+}
+.partner-programme-top-img-details .btn-list .partner-console {
+    border: 1px solid green;
+    color: green;
+    padding: 8px 10px;
+    margin: 10px;
+}
+.partner-programme-top-img-details .heading {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 5px;
+}
+.partner-programme-top-img-details .details {
+    font-size: 16px;
+    color: black;
+}
+
+
+
+.what-acpn-section {
+    background-color: #eaf4f1;
+}
+.what-acpn-left-heading-div {
+    /* position: relative; */
+    
+}
+.what-acpn-left-heading {
+    padding: 14%;
+    font-size: 30px;
+}
+.what-acpn-details {
+    font-size: 16px;
+    padding: 4%;
+}
+
+.pp-mini-div {
+    text-align: center;
+    padding: 12%;
+}
+
+.pp-mini-div-img {
+    margin-bottom: 10px;
+}
+.pp-mini-div-img img {
+    width: 20%;
+}
+.pp-mini-details p {
+    font-size: 17px;
+}
+
+
+.partner-programme02 {
+
+}
+.partner-programme02-heading {
+    font-size: 30px;
+}
+.partner-programme02-details {
+    font-size: 14px;
+}
+.partner-programme02-link-div {
+   margin-top: 6%;
+}
+.partner-programme02-link {
+    text-decoration: none;
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+.pp-mini-div2 {
+    text-align: center;
+    padding: 12%;
+}
+.pp-mg-30 {
+    margin-top: 30%;
+}
+.pp-mg-8 {
+    margin-top: 8%;
+}
+.pp-mini-div-img2 {
+    margin-bottom: 10px;
+}
+.pp-mini-div-img2 img {
+    width: 44%;
+}
+.pp-mini-details2 p {
+    font-size: 12px;
+}
+
+.pp-mini-details2 p a {
+    background-color: green;
+    padding: 6px;
+    font-size: 10px;
+    color: #fff;
+    border: 1px solid green;
+}
+
+.partner-programme03 {
+    background-color: #eaf4f1;
+    padding-bottom: 25px;
+}
+.partner-programme03-top-heading {
+    font-size: 30px;
+    margin: 40px 18px;
+}
+.partner-programme03-div {
+    margin: 25px;
+    padding: 20px 20px 30px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.partner-programme03-heading {
+    font-size: 22px;
+}
+.partner-programme03-details {
+    font-size: 13px;
+}
+.partner-programme03-links {
+    text-align: center;
+}
+.partner-programme03-links .btn-list {
+    margin: 5%;
+}
+.partner-programme03-links .btn-list .join-us {
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    padding: 8px 38px;
+    margin: 15px;
+}
+.partner-programme03-links .btn-list .partner-console {
+    border: 1px solid green;
+    color: green;
+    padding: 8px 38px;
+    margin: 10px;
+}
+.partner-programme04 {
+    margin-bottom: 5%;
+}
+.partner-programme04-top-heading {
+    font-size: 30px;
+    margin: 30px;
+}
+.partner-programme04-outer-div {
+    position: relative !important;
+    border: 1px solid #eaf4f1;
+    padding: 40px;
+}
+.partner-programme04-inner-count {
+    border: 1px solid #eaf4f1;
+    border-radius: 50px;
+    position: absolute;
+    padding: 8px 19px;
+    font-size: 24px;
+    background-color: #eaf4f1;
+    top: -18%;
+    left: 37%;
+}
+.pp-prg-4-active {
+    background-color: #3d8117;
+    color: #fff;
+}
+.partner-programme04-inner-param {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+}
+.partner-programme05 {
+    background-color: #eaf4f1;
+}
+.partner-programme05-top-heading {
+    font-size: 30px;
+    margin: 30px;
+}
+.partner-programme05-inner-div img {
+    width: 20%;
+}
+.partner-programme05-inner-div .partner-programme05-heading {
+    font-size: 24px;
+}
+.partner-programme05-inner-div .partner-programme05-details {
+    font-size: 16px;
+}

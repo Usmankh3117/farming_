@@ -548,6 +548,45 @@
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.partner-programme-top-img-details {
+		top: 20% !important;
+		left: 5% !important; 
+	}
+	.pp-mini-details2 p a {
+		font-size: 8px !important; 
+	}
+	.partner-programme02-heading {
+		font-size: 22px !important;
+	}
+	.partner-programme02-link-div {
+		margin-top: 1% !important;
+	}
+	.partner-programme03-top-heading {
+		font-size: 22px !important;
+		margin: 14px 26px !important;
+	}
+
+
+
+	.best-harvest-details-div {
+		top: 60% !important; 
+	}
+	.news-list ul li a {
+		font-size: 18px !important;
+		line-height: 24px !important;
+	}
+	.latest-talk-with-img span, .latest-talks span {
+		font-size: 17px !important;
+	}
+	.latest-talk-with-img p, .latest-talks p {
+		font-size: 12px !important;
+	}
+	.news-inner-div span {
+		font-size: 18px !important;
+	}
+	.news-inner-div p {
+		font-size: 14px !important;
+	}
 	.order-list ul li a {
 		font-size: 18px !important;
 		padding: 4px !important;
@@ -788,6 +827,110 @@
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.partner-programme-top-img-details {
+		top: 20% !important;
+		left: 5% !important; 
+	}
+	.pp-mini-details2 p a {
+		font-size: 8px !important; 
+	}
+	.partner-programme02-heading {
+		font-size: 22px !important;
+	}
+	.partner-programme02-link-div {
+		margin-top: 1% !important;
+	}
+	.partner-programme03-top-heading {
+		font-size: 22px !important;
+		margin: 14px 26px !important;
+	}
+	.my-account, .help {
+		font-size: 14px !important;
+	}
+	.language {
+		font-size: 12px !important;
+	}
+	.partner-programme-top-img-details .heading {
+		font-size: 19px !important;
+	}
+	.partner-programme-top-img-details .details {
+		font-size: 13px !important;
+	}	
+	.partner-programme-top-img-details {
+		width: 60% !important;
+	}
+	.what-acpn-left-heading {
+		padding: 22% !important;
+		font-size: 17px !important;
+	}
+	.what-acpn-details {
+		font-size: 12px !important;
+		padding: 4% !important;
+	}
+	.pp-mini-details p {
+		font-size: 12px !important;
+	}
+	.partner-programme02-heading {
+		font-size: 18px !important;
+	}
+	.partner-programme02-details {
+		font-size: 12px !important;
+	}
+	.partner-programme03-div {
+		margin: 0px !important;
+	}
+	.partner-programme03-links .btn-list .join-us, .partner-programme03-links .btn-list .partner-console {
+		padding: 8px 29px !important;
+	}
+
+	.best-harvest-details-div {
+		top: 60% !important; 
+	}
+	.news-search__form form input {
+		width: 80% !important;
+		height: 47px !important;  
+	}
+	.best-harvest-details-div > .heading {
+		font-size: 24px !important;
+	}
+	.best-harvest-details-div > .details {
+		font-size: 12px !important;
+	}
+	.categories-div {
+		margin-top: 0px !important;
+	}
+	.news-list ul li a {
+		font-size: 18px !important;
+		line-height: 10px !important;
+	}
+	.news-list ul li a .news-sec-icon {
+		margin-top: 0px !important;
+		font-size: 12px !important;
+	}
+	.news-inner-div a {
+		font-size: 10px !important; 
+		margin-bottom: 12px !important;
+	}
+	.latest-talk-with-img span, .latest-talks span {
+		font-size: 14px !important;
+	}
+	.latest-talk-with-img p, .latest-talks p {
+		font-size: 10px !important;
+	}
+	.news-inner-div span {
+		font-size: 14px !important;
+	}
+	.news-inner-div p {
+		font-size: 10px !important;
+	}
+	.latest-talk-with-img {
+		margin-top: 27px !important;
+	}
+	.latest-talk-with-img-border {
+		padding: 4px !important;
+	}	
+
+	
 	.order-left-top-button-list {
 		width: 100% !important;
 		margin: 0px !important; 
@@ -1441,6 +1584,110 @@
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+	.partner-programme-top-img-details {
+		top: 20% !important;
+		left: 5% !important; 
+	}
+	.pp-mini-details2 p a {
+		font-size: 8px !important; 
+	}
+	.partner-programme02-heading {
+		font-size: 22px !important;
+	}
+	.partner-programme02-link-div {
+		margin-top: 1% !important;
+	}
+	.partner-programme03-top-heading {
+		font-size: 22px !important;
+		margin: 14px 26px !important;
+	}
+	.my-account, .help {
+		font-size: 14px !important;
+	}
+	.language {
+		font-size: 12px !important;
+	}
+	.partner-programme-top-img-details .heading {
+		font-size: 19px !important;
+	}
+	.partner-programme-top-img-details .details {
+		font-size: 13px !important;
+	}	
+	.partner-programme-top-img-details {
+		width: 60% !important;
+	}
+	.what-acpn-left-heading {
+		padding: 22% !important;
+		font-size: 17px !important;
+	}
+	.what-acpn-details {
+		font-size: 12px !important;
+		padding: 4% !important;
+	}
+	.pp-mini-details p {
+		font-size: 12px !important;
+	}
+	.partner-programme02-heading {
+		font-size: 18px !important;
+	}
+	.partner-programme02-details {
+		font-size: 12px !important;
+	}
+	.partner-programme03-div {
+		margin: 0px !important;
+	}
+	.partner-programme03-links .btn-list .join-us, .partner-programme03-links .btn-list .partner-console {
+		padding: 8px 29px !important;
+	}
+	.best-harvest-details-div {
+		top: 60% !important; 
+	}
+	.news-search__form form input {
+		width: 80% !important;
+		height: 47px !important;  
+	}
+	.best-harvest-details-div > .heading {
+		font-size: 24px !important;
+	}
+	.best-harvest-details-div > .details {
+		font-size: 12px !important;
+	}
+	.categories-div {
+		margin-top: 0px !important;
+	}
+	.news-list ul li a {
+		font-size: 18px !important;
+		line-height: 10px !important;
+	}
+	.news-list ul li a .news-sec-icon {
+		margin-top: 0px !important;
+		font-size: 12px !important;
+	}
+	.news-inner-div a {
+		font-size: 10px !important; 
+		margin-bottom: 12px !important;
+	}
+	.latest-talk-with-img span, .latest-talks span {
+		font-size: 14px !important;
+	}
+	.latest-talk-with-img p, .latest-talks p {
+		font-size: 10px !important;
+	}
+	.news-inner-div span {
+		font-size: 14px !important;
+	}
+	.news-inner-div p {
+		font-size: 10px !important;
+	}
+	.latest-talk-with-img {
+		margin-top: 27px !important;
+	}
+	.latest-talk-with-img-border {
+		padding: 4px !important;
+	}
+
+
+	
 	.order-left-top-button-list {
 		/* width: 100% !important; */
 		margin: 0px !important; 
@@ -1682,9 +1929,10 @@
 	.hero__categories {
 		margin-bottom: 30px;
 	}
-	.logo-img {
+	.logo-img, .news-logo-img {
 		width: 25%;
 	}
+	
 	.products-details-bar > span, .products-details-bar > div > span, .sorted-by {
 		font-size: 12px;
 	}
@@ -1963,6 +2211,146 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+	.partner-programme-top-img-details {
+		top: 20% !important;
+		left: 5% !important; 
+	}
+	.pp-mini-details2 p a {
+		font-size: 8px !important; 
+	}
+	.partner-programme02-heading {
+		font-size: 22px !important;
+	}
+	.partner-programme02-link-div {
+		margin-top: 1% !important;
+	}
+	.partner-programme03-top-heading {
+		font-size: 16px !important;
+		margin: 14px 26px !important;
+	}
+	.my-account, .help {
+		font-size: 9px !important;
+	}
+	.language {
+		font-size: 9px !important;
+	}
+	.partner-programme-top-img-details .heading {
+		font-size: 10px !important;
+	}
+	.partner-programme-top-img-details .details {
+		font-size: 9px !important;
+	}	
+	.partner-programme-top-img-details .btn-list .partner-console {
+		padding: 3px 2px !important;
+		margin: 10px !important;
+		font-size: 10px !important;
+	}
+	.partner-programme-top-img-details .btn-list .join-us {
+		padding: 3px 8px !important;
+		margin: 15px !important;
+		font-size: 10px !important;
+	}
+	.partner-programme-top-img-details {
+		width: 60% !important;
+	}
+	.what-acpn-left-heading {
+		padding-top: 60% !important;
+		font-size: 9px !important;
+	}
+	.what-acpn-details {
+		font-size: 9px !important;
+		padding: 4% !important;
+	}
+	.pp-mini-details p {
+		font-size: 9px !important;
+	}
+	.partner-programme02-heading {
+		font-size: 10px !important;
+	}
+	.partner-programme02-details {
+		font-size: 9px !important;
+	}
+	.partner-programme02-link {
+		font-size: 9px !important;
+	}
+	.partner-programme03-div {
+		margin: 0px !important;
+	}
+	.partner-programme03-links .btn-list .join-us, .partner-programme03-links .btn-list .partner-console {
+		padding: 8px 29px !important;
+	}
+	.partner-programme04-inner-count {
+		padding: 5px 13px !important;
+		font-size: 16px !important;
+		top: -9% !important;
+		left: 25% !important;
+	}
+	.partner-programme04-inner-param {
+		font-size: 6px !important;
+		text-align: center !important;
+		margin-top: 0px !important;
+	}
+	.partner-programme05-top-heading {
+		font-size: 18px !important;
+		margin: 23px !important;
+	}
+	.partner-programme05-inner-div .partner-programme05-heading {
+		font-size: 10px !important;
+	}
+	.partner-programme05-inner-div .partner-programme05-details {
+		font-size: 6px !important;
+	}
+	
+	
+
+	.best-harvest-details-div {
+		top: 60% !important; 
+	}
+	.news-search__form form input {
+		width: 80% !important;
+		height: 47px !important;  
+	}
+	.best-harvest-details-div > .heading {
+		font-size: 24px !important;
+	}
+	.best-harvest-details-div > .details {
+		font-size: 12px !important;
+	}
+	.categories-div {
+		margin-top: 0px !important;
+	}
+	.news-list ul li a {
+		font-size: 18px !important;
+		line-height: 10px !important;
+	}
+	.news-list ul li a .news-sec-icon {
+		margin-top: 0px !important;
+		font-size: 12px !important;
+	}
+	.news-inner-div a {
+		font-size: 10px !important; 
+		margin-bottom: 12px !important;
+	}
+	.latest-talk-with-img span, .latest-talks span {
+		font-size: 14px !important;
+	}
+	.latest-talk-with-img p, .latest-talks p {
+		font-size: 10px !important;
+	}
+	.news-inner-div span {
+		font-size: 14px !important;
+	}
+	.news-inner-div p {
+		font-size: 10px !important;
+	}
+	.latest-talk-with-img {
+		margin-top: 27px !important;
+	}
+	.latest-talk-with-img-border {
+		padding: 4px !important;
+	}
+
+
 	.order-left-top-button-list {
 		/* width: 100% !important; */
 		margin: 10px 50px !important;
@@ -2197,7 +2585,9 @@
 	.logo-img {
 		width: 100%;
 	}
-
+	.news-logo-img {
+		width: 40%;
+	}
 	.hero__categories__all span {
 		font-size: 18px !important;
 	}
