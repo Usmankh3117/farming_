@@ -1,0 +1,136 @@
+/* landing page css */
+.select-language {
+	border: none;
+	/* margin: 12px; */
+	background-color: #fff;
+	font-size: 18px;
+	color: #a29e9f;
+}
+.currency-change-btn {
+    padding-left: 20px;
+}
+
+.top-menu {
+    font-size: 20px;
+    color: #a29d9c;
+    line-height: 8px;
+    display: block;
+    text-decoration: none !important;
+}
+.active-menu {
+    color: #7fad39;
+}
+.list-group-horizontal {
+    margin-top: 0%;
+}
+.contact-top-header-list {
+    margin: 3% 20%;
+}
+.details-section {
+    margin: 20px;
+}
+.talk-to-sale, .contact-customer {
+    border: 1px solid #1e1f26;
+    padding: 40px;
+    margin: 15px;
+    text-align: center;
+}
+.talk-to-sale > i, .contact-customer > i {
+    font-size: 34px;
+    color: green;
+}
+
+.talk-to-sale-heading, .contact-customer-heading {
+    font-size: 24px;
+}
+.talk-to-sale-details, .contact-customer-details {
+    font-size: 16px;
+}
+.call-us-now {
+    font-size: 18px;
+    margin-top: 30px;
+}
+.call-us-nbr {
+    margin-bottom: 42px;
+}
+.contact-customer-link {
+    text-decoration: none;
+    background-color: #3d8117;
+    color: #fff;
+    padding: 20px;
+    margin: 36px 0px 36px 0px;
+    border: 1px solid #3d8117;
+    font-size: 18px;
+}
+.connect-with-section {
+    margin-bottom: 30px;
+}
+.connect-div-map {
+    border-top: 1px solid #a5a5a5;
+    border-left: 1px solid #a5a5a5;
+    border-bottom: 1px solid #a5a5a5;
+}
+.connect-div-details {
+    border-top: 1px solid #a5a5a5;
+    border-right: 1px solid #a5a5a5;
+    border-bottom: 1px solid #a5a5a5;
+}
+.connect-with-div {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.connect-with-detail {
+    padding-top: 25px;
+    padding-bottom: 29px;
+}
+.connect-with-heading {
+    color: green;
+    font-size: 30px;
+}
+.connect-with-head {
+    font-size: 24px;
+}
+.connect-with-mini-header {
+font-size: 18px;
+}
+.connect-with-p {
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+.send-a-message-section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.send-a-message-div {
+    /* border: 1px solid #8a8484; */
+    border-radius: 3px;
+    box-shadow: 0 0px 0px 1px rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.19);
+}
+.send-a-message-head-div {
+    text-align: center;
+    margin: 10px 0px;
+}
+.send-a-message-head {
+    font-size: 28px;
+    color: green;
+}
+.contact-form-input {
+    margin: 10px 0px;
+    border: 1px solid #afafaf !important;
+    padding: 20px !important;
+    font-size: 20px !important;
+}
+.message-textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0px;
+    border: 1px solid #afafaf !important;
+    padding: 20px !important;
+    font-size: 20px !important;
+}
+.form-control:focus {
+    border-color: green !important;
+    /* outline: 0; */
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(28, 255, 0, 0.6) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(97, 204, 0, 0.6) !important;
+}

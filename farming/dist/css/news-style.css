@@ -1,0 +1,132 @@
+.news-logo-img, .latest-news-img, .best-harvest-img, .news-img {
+    width: 100%;
+}
+.best-harvest-div {
+    position: relative;
+}
+.best-harvest-details-div {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    margin: 0% 5%;
+    width: 90%;
+}
+.best-harvest-details-div > .heading {
+    font-size: 30px;
+    color: #fff;
+}
+.best-harvest-details-div > .details {
+    font-size: 16px;
+    color: #fff;
+}
+.best-harvest-details-div > .see-more {
+    font-size: 16px;
+    color: #fff;
+    float: right;
+}
+
+.news-search {
+    overflow: hidden;
+    margin-top: 20px;
+}
+.news-search__form {
+    width: 100%;
+}
+.news-search__form form input {
+    width: 86%;
+    height: 46px;
+    font-size: 16px;
+    color: #b2b2b2;
+    border: 1px solid #6c757d;
+    padding-left: 15px;
+}
+.news-search__form form button {
+    height: 50px;
+    border: 1px solid #488040;
+    padding: 0px 15px;
+    background-color: #488040;
+    color: white;
+    font-size: 22px;
+    margin: -4px 0px 0px 0px;
+}
+.find-more-solution {
+    font-size: 20px;
+}
+.categories-div {
+    margin-top: 30px;
+}
+.categories-div > .heading {
+    font-size: 20px;
+}
+
+.news-list ul {
+    
+    padding-top: 10px;
+    
+}
+.news-list ul li {
+    list-style: none;
+    border: 1px solid #9e9e9e;
+    border-radius: 2px;
+    padding: 4px;
+    font-weight: 500;
+    margin: 1px 0px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 6px 0 rgba(0, 0, 0, 0.19);
+}
+.news-list ul li a {
+    font-size: 20px;
+    color: #737373;
+    line-height: 35px;
+    display: block;
+    padding: 7px;
+}
+.news-list ul li a .news-sec-icon {
+    float: right;
+    margin-top: 10px;
+}
+.active {
+    color: green !important;
+}
+.news-outer-div {
+    padding: 18px 18px 46px 18px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.news-inner-div {
+    margin-bottom: 20px;
+}
+.news-inner-div span {
+    font-size: 20px;
+}
+.news-inner-div p {
+    font-size: 16px;
+}
+
+.news-inner-div a {
+    color: green;
+    border: 1px solid;
+    padding: 2px 5px;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 20px;
+}
+.latest-talks span {
+    font-size: 20px;
+}
+.latest-talks p {
+    font-size: 16px;
+}
+.latest-talk-with-img {
+    margin-top: 42px;
+}
+.latest-talk-with-img span {
+    font-size: 20px;
+}
+.latest-talk-with-img p {
+    font-size: 16px;
+}
+.latest-talk-with-img-border {
+    padding: 18px 18px 46px 18px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

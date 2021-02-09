@@ -1,0 +1,58 @@
+/* landing page css */
+.select-language {
+	border: none;
+	/* margin: 12px; */
+	background-color: #fff;
+	font-size: 18px;
+	color: #a29e9f;
+}
+.currency-change-btn {
+    padding-left: 20px;
+}
+
+.top-menu {
+    font-size: 20px;
+    color: #a29d9c;
+    line-height: 8px;
+    display: block;
+    text-decoration: none !important;
+}
+.active-menu {
+    color: #7fad39;
+}
+.list-group-horizontal {
+    margin-top: 0%;
+}
+.contact-top-header-list {
+    margin: 3% 20%;
+}
+.heading-div {
+    text-align: center;
+    font-size: 30px;
+}
+.paragraph > p {
+    font-size: 16px;
+}
+.paragraph > .paragraph-question {
+    font-size: 30px;
+}
+.our-team-div {
+    border-radius: 3px;
+    box-shadow: 0 0px 0px 1px rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    margin: 30px 0px;
+}
+.our-team-div > .our-team { 
+    text-align: center;
+}
+.our-team-div > p { 
+    font-size: 16px;
+}
+
+.our-team-div > .our-team > span{ 
+    font-size: 30px;
+    font-weight: 600;
+}
+.our-team-div > .our-team > p{ 
+    font-size: 22px;
+}
