@@ -281,10 +281,10 @@
 
 .order-controls ul li {
 	list-style: none;
-	font-size: 18px;
+	font-size: 17px;
 	color: #8a8787;
 	display: inline-block;
-	margin-right: 36px;
+	margin-right: 27px;
 	position: relative;
 	cursor: pointer;
 }

@@ -8,6 +8,18 @@
 ---------------------------------------------------------  */
 
 'use strict';
+function goto_home_page() {
+    window.location.href = "./landing-page.html";
+};
+
+function contact_supplier () {
+    window.location.href = "./message.html";
+
+}
+function chat_now () {
+    window.location.href = "./message.html";
+
+}
 
 (function ($) {
 
