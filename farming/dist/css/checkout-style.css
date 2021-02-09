@@ -1,5 +1,32 @@
-html,body,.wrapper{
-    background: #f7f7f7;
+.my-account {
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #545454;
+}
+.help {
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    margin: 20px;
+    color: #545454;
+}
+.language {
+    background-color: #fff;
+    font-size: 18px;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: #545454;
+    padding: 2px 18px 2px 18px;
+}
+.checkout-top-heading {
+    font-size: 30px;
+    margin: 30px;
+}
+.steps-outer-div {
+    margin: auto;
+    margin-left: 16px;
 }
 .steps {
     margin-top: -41px;
@@ -10,42 +37,58 @@ html,body,.wrapper{
 .step {
     float: left;
     background: white;
-    padding: 7px 13px;
+    padding: 4px 30px;
     border-radius: 1px;
     text-align: center;
-    width: 100px;
+    width: 32%;
     position: relative
 }
 .step_line {
     margin: 0;
-    width: 0;
-    height: 0;
-    border-left: 16px solid #fff;
+    height: 0px;
     border-top: 16px solid transparent;
-    border-bottom: 16px solid transparent;
+    border-bottom: 17px solid transparent;
     z-index: 1008;
     position: absolute;
-    left: 99px;
-    top: 1px
+    left: 99.7%;
+    top: 0px;
 }
 .step_line.backline {
-    border-left: 20px solid #f7f7f7;
+    border-left: 15px solid #f7f7f7;
     border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
+    border-bottom: 21px solid transparent;
     z-index: 1006;
     position: absolute;
-    left: 99px;
-    top: -3px
+    left: 100%;
+    top: -3px;
 }
+.check-bc .count {
+    float: left;
+} 
+.check-bc .text {
+    text-align: center;
+} 
 .step_complete {
-    background: #357ebd
+    background: #50aa43;
+}
+.step_not_complete {
+    background: #bbbbbb;
 }
 .step_complete a.check-bc, .step_complete a.check-bc:hover,.afix-1,.afix-1:hover{
     color: #eee;
+    font-size: 18px;
+}
+.step_not_complete a.check-bc, .step_not_complete a.check-bc:hover,.afix-1,.afix-1:hover{
+    color: #fff;
+    font-size: 18px;
 }
 .step_line.step_complete {
     background: 0;
-    border-left: 16px solid #357ebd
+    border-left: 12px solid #50aa43;
+}
+.step_line.step_not_complete {
+    background: 0;
+    border-left: 12px solid #bbbbbb;
 }
 .step_thankyou {
     float: left;
@@ -57,6 +100,85 @@ html,body,.wrapper{
 }
 .step.check_step {
     margin-left: 5px;
+}
+.panel {
+    border: none !important;
+}
+.checkout-label {
+    font-size: 18px;
+}
+.checkout-input-field {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d2d2d2;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+.checkout-text-span {
+    margin-left: 5%;
+    color: gray;
+    font-size: 18px;
+}
+.checkout-checkbox-field {
+    height: 18px;
+    width: 16px;
+}
+.checkbox-text-span {
+    color: gray;
+    font-size: 18px;
+}
+.checkout-proceed-btn {
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    padding: 8px 38px;
+    margin: 15px;
+}
+.co-right-panel {
+    border: 1px solid gray;
+}
+.total-price {
+    font-size: 17px;
+}
+.co-edit {
+    color: black;
+    font-size: 17px;
+    float: right;
+}
+.co-del {
+    color: black;
+    font-size: 17px;
+}
+.co-right-bottom-text {
+    font-size: 17px;
+    color: gray;
+}
+.co-right-bottom-text a {
+    color: red;
+}
+.co-subtotal-heading {
+    font-size: 17px;
+}
+.co-subtotal-details {
+    font-size: 17px;    
+}
+.co-subtotal-outer-div {
+    background-color: #d4e7e1;
+    padding: 5px;
 }
 .ch_pp {
     text-decoration: underline;

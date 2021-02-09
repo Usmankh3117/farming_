@@ -2211,6 +2211,20 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+	.subscribe_span {
+		font-size: 9px !important;
+		padding: 0px !important;
+		margin: 10px !important;
+	}
+	.step {
+		padding: 6px 22px !important;
+	}
+	.step_complete a.check-bc, .step_complete a.check-bc:hover, .afix-1, .afix-1:hover {
+		font-size: 16px !important;
+	}
+	.step_not_complete a.check-bc, .step_not_complete a.check-bc:hover, .afix-1, .afix-1:hover {
+		font-size: 15px !important;
+	}
 	.partner-programme-top-img-details {
 		top: 20% !important;
 		left: 5% !important; 

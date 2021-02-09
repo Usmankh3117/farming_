@@ -79,21 +79,40 @@
             <div class="row cart-head">
                 <div class="container">
                 <div class="row">
-                    <p> Check Out Details</p>
+                    <p class="checkout-top-heading"> Check Out Details</p>
                 </div>
                 <div class="row">
-                    <div style="/* display: table; */ margin: auto;">
+                    <div class="steps-outer-div">
                         <span class="step step_complete"> 
-                            <a href="#" class="check-bc">1 Delivery</a> 
+                            <a href="#" class="check-bc">
+                                <span class="count">1</span>
+                                <span  class="text">Delivery</span>
+                            </a> 
                             <span class="step_line step_complete"> </span> 
                             <span class="step_line backline"> </span> 
                         </span>
-                        <span class="step step_complete"> 
+                        <span class="step step_not_complete"> 
+                            <a href="#" class="check-bc">
+                                <span class="count">2</span>
+                                <span  class="text">Payment</span>
+                            </a> 
+                            <span class="step_line step_not_complete"> </span> 
+                            <span class="step_line backline"> </span> 
+                        </span>
+                        <span class="step step_not_complete"> 
+                            <a href="#" class="check-bc">
+                                <span class="count">3</span>
+                                <span  class="text">Thank you</span>
+                            </a> 
+                            <span class="step_line step_not_complete"> </span> 
+                            <span class="step_line backline"> </span> 
+                        </span>
+                        <!-- <span class="step step_complete"> 
                             <a href="#" class="check-bc">2 Payment</a> 
                             <span class="step_line "> </span> 
                             <span class="step_line step_complete"> </span> 
                         </span>
-                        <span class="step_thankyou check-bc step_complete">Thank you</span>
+                        <span class="step_thankyou check-bc step_complete">Thank you</span> -->
                     </div>
                 </div>
                 <div class="row">
@@ -104,62 +123,62 @@
             <div class="row cart-body Delivery">
                 <form class="form-horizontal" method="post" action="">
                 
-                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
                     <!--delivery METHOD-->
                     <div class="panel panel-info">
                         
                         <div class="panel-body">
                             <div class="form-group">
                                 <div class="col-md-12">
-                                    <h4>Delivery</h4>
+                                    <h3 class="checkout-mini-heading">Delivery</h3>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-md-12"><strong>First Name:</strong></div>
+                                <div class="col-md-12"><span class="checkout-label">First Name:*</span></div>
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="fname" value="" />
+                                    <input type="text" class="checkout-input-field" name="fname" value="" />
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-md-12"><strong>Last Name:</strong></div>
+                                <div class="col-md-12"><span class="checkout-label">Last Name:*</strong></div>
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="lname" value="" />
+                                    <input type="text" class="checkout-input-field" name="lname" value="" />
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-md-12"><strong>Phone Number:</strong></div>
+                                <div class="col-md-12"><span class="checkout-label">Phone Number:</strong></div>
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="number" value="" />
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-md-12">
-                                    <span>We'll only call you if there is any issue with your order</span>
+                                    <input type="text" class="checkout-input-field" name="number" value="" />
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-md-12">
-                                    <input type="checkbox" name="checkbox" class="form-control" />
-                                    <span>Free message delivery update (Mobile only)</span>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-md-12"><strong>Email:</strong></div>
-                                <div class="col-md-12">
-                                    <input type="text" class="form-control" name="email" value="" />
+                                    <h4 class="checkout-text-span">We'll only call you if there is any issue with your order</h4>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-md-12">
-                                    <input type="checkbox" name="checkbox" class="form-control" />
-                                    <span>Tick here for style insparation and exculisve straight to your inbox.</span>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis expedita ipsa quae, tenetur aliquid id ipsam sapiente dolorem cumque doloribus esse. Odit vitae cumque deleniti eaque, itaque eos excepturi explicabo!</p>
+                                    <input type="checkbox" name="checkbox" class="checkout-checkbox-field" />
+                                    <span class="checkbox-text-span">Free message delivery update (Mobile only)</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><span class="checkout-label">Email:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" class="checkout-input-field" name="email" value="" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <input type="checkbox" name="checkbox" class="checkout-checkbox-field" />
+                                    <span class="checkbox-text-span">Tick here for style insparation and exculisve straight to your inbox.</span>
+                                    <p class="checkout-text-span">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis expedita ipsa quae, tenetur aliquid id ipsam sapiente dolorem cumque doloribus esse. Odit vitae cumque deleniti eaque, itaque eos excepturi explicabo!</p>
                                 </div>
                             </div>
                             
                             <div class="form-group">
                                 <div class="col-md-12">
-                                    <button class="proceed-btn">Proceed</button>
+                                    <button class="checkout-proceed-btn">Proceed</button>
                                 </div>
                             </div>
                             
@@ -168,14 +187,15 @@
                     <!--SHIPPING METHOD END-->
                     
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <!--REVIEW ORDER-->
-                    <div class="panel panel-info">
+                    <div class="co-right-panel">
                         
                         <div class="panel-body">
                             <div class="form-group">
                                 <div class="col-md-12">
-                                    <h4>Machine (2)</h4>
+                                    <h3 class="checkout-mini-heading">Machine (2)</h3>
+                                    <hr>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -183,75 +203,77 @@
                                     <img class="img-responsive" src="./dist/assets/img/spray3.png" />
                                 </div>
                                 <div class="col-sm-8 col-xs-8">
-                                    <div class="col-xs-12">Spray Equipment Machine LCD</div>
-                                    
-                                    <div class="col-xs-12"><small>1x Size W34234:<span>$4000</span></small></div>
                                     <div class="col-xs-12">
-                                        <div class="col-xs-6">Total</div>
-                                        <div class="col-xs-6">$4000</div>
+                                        <p>Spray Equipment Machine LCD</p>
                                     </div>
-                                    <div class="col-xs-12">
-                                        <div class="col-xs-6">
-                                            <a href="#">Edit</a>
-                                        </div>
-                                        <div class="col-xs-6">
-                                            <a href="#">
-                                                <i class="fa fa-trash"></i>
-                                            </a>
-                                        </div>
+                                    <div class="col-xs-12"><small>1x Size W34234:<span>$4000</span></small></div>
+                                    
+                                    <div class="col-xs-6 total-price">Total</div>
+                                    <div class="col-xs-6 total-price">$4000</div>
+                                    <div class="col-xs-6">
+                                        <a href="#" class="co-edit">Edit</a>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <a href="#" class="co-del">
+                                            <i class="fa fa-trash"></i>
+                                        </a>
                                     </div>
                                 </div>
                                 
                             </div>
+                            <hr>
                             <div class="form-group">
                                 <div class="col-sm-4 col-xs-4">
                                     <img class="img-responsive" src="./dist/assets/img/spray3.png" />
                                 </div>
                                 <div class="col-sm-8 col-xs-8">
-                                    <div class="col-xs-12">Spray Equipment Machine LCD</div>
-                                    
-                                    <div class="col-xs-12"><small>1x Size W34234:<span>$4000</span></small></div>
                                     <div class="col-xs-12">
-                                        <div class="col-xs-6">Total</div>
-                                        <div class="col-xs-6">$4000</div>
+                                        <p>Spray Equipment Machine LCD</p>
                                     </div>
-                                    <div class="col-xs-12">
-                                        <div class="col-xs-6">
-                                            <a href="#">Edit</a>
-                                        </div>
-                                        <div class="col-xs-6">
-                                            <a href="#">
-                                                <i class="fa fa-trash"></i>
-                                            </a>
-                                        </div>
+                                    <div class="col-xs-12"><small>1x Size W34234:<span>$4000</span></small></div>
+                                    
+                                    <div class="col-xs-6 total-price">Total</div>
+                                    <div class="col-xs-6 total-price">$4000</div>
+                                    <div class="col-xs-6">
+                                        <a href="#" class="co-edit">Edit</a>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <a href="#" class="co-del">
+                                            <i class="fa fa-trash"></i>
+                                        </a>
                                     </div>
                                 </div>
                                 
                             </div>
-
+                            
                             <div class="form-group">
                                 <div class="col-sm-12 col-xs-12">
-                                    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim autem a labore odio architecto, minima delectus.</span>
+                                    <span class="co-right-bottom-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                       <a href="">Enim autem a labore odio.</a> 
+                                    </span>
                                 </div>
                             </div>
                             <div class="form-group"><hr /></div>
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <strong>SubTotal Before Delivery</strong>
-                                    <div class="pull-right"><span>$</span><span>4000</span></div>
+                            <div class="co-subtotal-outer-div">
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <span class="co-subtotal-heading">SubTotal Before Delivery</span>
+                                        <div class="co-subtotal-details pull-right"><span>$</span><span>4000</span></div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <span class="co-subtotal-heading">Shipping Charges</span>
+                                        <div class="co-subtotal-details pull-right"><span>$200</span></div>
+                                    </div>
                                 </div>
-                                <div class="col-xs-12">
-                                    <small>Shipping Charges</small>
-                                    <div class="pull-right"><span>$200</span></div>
+                                <div class="form-group"><hr /></div>
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <span class="co-subtotal-heading">SubTotal</span>
+                                        <div class="co-subtotal-details pull-right"><span>$</span><span>4200</span></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="form-group"><hr /></div>
-                            <div class="form-group">
-                                <div class="col-xs-12">
-                                    <strong>SubTotal</strong>
-                                    <div class="pull-right"><span>$</span><span>4200</span></div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <!--REVIEW ORDER END-->
