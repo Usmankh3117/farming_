@@ -24,12 +24,13 @@
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
                       <img src="./dist/assets/img/logo.png" alt="logo" class="logo-img" onclick="goto_home_page();">
                     </div>
-                    <div class="col-lg-7 col-md-6 col-sm-6 col-xs-5">
+                    <div class="col-lg-7 col-md-6 col-sm-6 col-xs-9">
                       <div class="hero__search">
                           <div class="hero__search__form">
                               <form action="#">
                                   <div class="hero__search__categories">
                                       All Categories
+                                      
                                       <span class="arrow_carrot-down"><i class="fa fa-chevron-down"></i></span>
                                   </div>
                                   <input type="text" placeholder="Search for Products... ">
@@ -40,25 +41,28 @@
                           </div>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
                       <ul class="list-group list-group-horizontal">
                           <li class="list-group-item top-right-img-li">
                               <a href="./checkout.html">
-                                <img src="./dist/assets/img/icon1.png" alt="img1" class="top-right-img">
+                                <img src="./dist/assets/img/landing_page_icons/threelines.png" alt="img1" class="top-right-img">
                               </a>
                               
                           </i>
                           <li class="list-group-item top-right-img-li">
                                 <a href="./my-favourite.html">
-                                    <img src="./dist/assets/img/heart-icon.png" alt="img2" class="top-right-img">
+                                    <img src="./dist/assets/img/landing_page_icons/heart-shape-outline.png" alt="img2" class="top-right-img">
                                 </a>
                             
                           </li>
-                          <li class="list-group-item top-right-img-li">
-                              <a href="./add-to-cart.html">
-                                <img src="./dist/assets/img/cart-icon.png" alt="img3" class="top-right-img">
-                              </a>
-                            
+                          <li class="list-group-item top-right-img-li top-right-img-count-outer-div">
+                                <a href="./add-to-cart.html">
+                                    <img src="./dist/assets/img/landing_page_icons/shopping-cart-empty-side-view.png" alt="img3" class="top-right-img">
+                                    <div class="top-right-img-count-div">
+                                        <span class="counter">0</span>
+                                    </div>
+                                </a>
+                              
                           </li>
                           <li class="list-group-item top-right-img-count">
                             ($0)
@@ -95,11 +99,11 @@
     <!-- header links start -->
     <section>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="row only-for-mobile-screen">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     
                 </div>
-                <div class="col-lg-9 col-md-9 col-sm-9">
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                     <ul class="list-group">
                         <li class="list-group-item">
                             <a href="./landing-page.html" class="top-menu active-menu">Home</a>
@@ -117,7 +121,7 @@
                             <a href="./product-categories.html" class="top-menu">Elements</a>
                         </li>
                         <li class="list-group-item">
-                            <span class="top-menu callus">Call us on toll free (+1)866-540-3229</span>
+                            <span class="top-menu callus"> Call us on toll free <span class="call-us-number">(+1)866-540-3229</span></span>
                         </li>
                     </ul>
                 </div>
@@ -146,51 +150,111 @@
                                     Today's Value deal
                                 </a>
                             </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item" href="#">
+                                        <img src="./dist/assets/img/landing_page_icons/cow.png" alt="" class="categories-icon-img">
+                                        From Live stock
+                                        <i class="fa fa-chevron-right category-sec-icon"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item"><a href="#">From Live stock1</a></li>
+                                          <li class="dropdown-submenu">
+                                              <a class="dropdown-item" href="#">
+                                                  From Live stock2
+                                                  <i class="fa fa-chevron-right category-sec-icon"></i>
+                                              </a>
+                                          <ul class="dropdown-menu">
+                                              <li class="dropdown-item"><a href="#">From Live stock3</a></li>
+                                              <li class="dropdown-item"><a href="#">From Live stock4</a></li>
+                                              <li class="dropdown-item"><a href="#">From Live stock5</a></li>
+                                          </ul>
+                                        </li>
+                                          <li class="dropdown-item"><a href="#">From Live stock3</a></li>
+                                    </ul>
+                                </li>
                             <li>
                                 <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
-                                    From Live stock
-                                    <i class="fa fa-chevron-right category-sec-icon"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
+                                    <img src="./dist/assets/img/landing_page_icons/gardening.png" alt="" class="categories-icon-img">
                                     Garden Village
                                     <span class="new">news</span>
                                 </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
+                            </li> 
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item" href="#">
+                                    <img src="./dist/assets/img/landing_page_icons/fruit.png" alt="" class="categories-icon-img">
                                     Fresh Fruit
                                     <i class="fa fa-chevron-right category-sec-icon"></i>
                                 </a>
-                            </li> 
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a href="#">Fresh Fruit1</a></li>
+                                      <li class="dropdown-submenu">
+                                          <a class="dropdown-item" href="#">
+                                            Fresh Fruit2
+                                              <i class="fa fa-chevron-right category-sec-icon"></i>
+                                          </a>
+                                      <ul class="dropdown-menu">
+                                          <li class="dropdown-item"><a href="#">Fresh Fruit3</a></li>
+                                          <li class="dropdown-item"><a href="#">Fresh Fruit4</a></li>
+                                          <li class="dropdown-item"><a href="#">Fresh Fruit5</a></li>
+                                      </ul>
+                                    </li>
+                                      <li class="dropdown-item"><a href="#">Fresh Fruit3</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item" href="#">
+                                    <img src="./dist/assets/img/landing_page_icons/vegetable.png" alt="" class="categories-icon-img">
                                     Vegitables
                                     <span class="new">news</span>
                                     <i class="fa fa-chevron-right category-sec-icon"></i>
                                 </a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a href="#">Vegitables1</a></li>
+                                      <li class="dropdown-submenu">
+                                          <a class="dropdown-item" href="#">
+                                            Vegitables2
+                                              <i class="fa fa-chevron-right category-sec-icon"></i>
+                                          </a>
+                                      <ul class="dropdown-menu">
+                                          <li class="dropdown-item"><a href="#">Vegitables3</a></li>
+                                          <li class="dropdown-item"><a href="#">Vegitables4</a></li>
+                                          <li class="dropdown-item"><a href="#">Vegitables5</a></li>
+                                      </ul>
+                                    </li>
+                                      <li class="dropdown-item"><a href="#">Vegitables3</a></li>
+                                </ul>
                             </li>
                             <li>
                                 <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
+                                    <img src="./dist/assets/img/landing_page_icons/wheat.png" alt="" class="categories-icon-img">
                                     Awesome wheats   
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item" href="#">
+                                    <img src="./dist/assets/img/landing_page_icons/threelines.png" alt="" class="categories-icon-img">
                                     Agro Machinery
                                     <i class="fa fa-chevron-right category-sec-icon"></i>
                                 </a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a href="#">Agro Machinery1</a></li>
+                                      <li class="dropdown-submenu">
+                                          <a class="dropdown-item" href="#">
+                                            Agro Machinery2
+                                              <i class="fa fa-chevron-right category-sec-icon"></i>
+                                          </a>
+                                      <ul class="dropdown-menu">
+                                          <li class="dropdown-item"><a href="#">Agro Machinery</a></li>
+                                          <li class="dropdown-item"><a href="#">Agro Machinery</a></li>
+                                          <li class="dropdown-item"><a href="#">Agro Machinery</a></li>
+                                      </ul>
+                                    </li>
+                                      <li class="dropdown-item"><a href="#">Agro Machinery3</a></li>
+                                </ul>
                             </li>
                             <li>
                                 <a href="#">
-                                    <i class="fa fa-star category-icon"></i>
+                                    <img src="./dist/assets/img/landing_page_icons/magnifying-glass.png" alt="" class="categories-icon-img">
                                     View More Pages
                                 </a>
                             </li>
