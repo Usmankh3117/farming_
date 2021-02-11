@@ -74,7 +74,7 @@
 
 .all-cate-dropdown {
 	margin: 0px !important;
-	font-size: 22px !important;
+	font-size: 22px;
 	border: none;
 	background-color: #cfe9e0;
 	padding-left: 9px;
@@ -583,6 +583,9 @@
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.all-cate-dropdown {
+		font-size: 14px !important;
+	}
 	.partner-programme-top-img-details {
 		top: 20% !important;
 		left: 5% !important; 
@@ -862,6 +865,7 @@
 /* Tablet Device = 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	
 	.partner-programme-top-img-details {
 		top: 20% !important;
 		left: 5% !important; 
@@ -1260,17 +1264,39 @@
 		font-size: 12px !important;
 	}
 	.hero__search__form form .hero__search__categories {
-		width: 30%;
+		width: 40%;
 		float: left;
 		font-size: 10px;
 		color: #6c757d;
-		padding-left: 18px;
-		padding-top: 17px;
+		padding-left: 6px;
+		padding-top: 13px;
 		position: relative;
 		background: #CFE9E0;
 		margin: 2px 0px 2px 0px;
 		height: 45px;
 		border-radius: 25px;
+	}
+	.all-cate-dropdown {
+		font-size: 14px !important;
+    	padding-left: 0px !important;
+	}
+	.hero__search__form form input {
+		width: 60%;
+		border: none;
+		height: 49px;
+		font-size: 16px;
+		color: #b2b2b2;
+		padding-left: 0px;
+	}
+	.hero__search__form form button {
+		top: 3px !important;
+		height: 41px !important;
+		margin: 1px 2px 1px 1px !important;
+	}
+	.site-btn {
+		width: 0%;
+		margin: 0px;
+		padding: 2px 28px 2px 14px !important;
 	}
 	.today-best-deal {
 		font-size: 24px !important;
@@ -2005,7 +2031,39 @@
 		width: 100%;
 	}
 	.hero__search__form form .hero__search__categories {
-		display: none;
+		width: 40%;
+		float: left;
+		font-size: 10px;
+		color: #6c757d;
+		padding-left: 6px;
+		padding-top: 13px;
+		position: relative;
+		background: #CFE9E0;
+		margin: 2px 0px 2px 0px;
+		height: 45px;
+		border-radius: 25px;
+	}
+	.all-cate-dropdown {
+		font-size: 14px !important;
+    	padding-left: 0px !important;
+	}
+	.hero__search__form form input {
+		width: 60%;
+		border: none;
+		height: 49px;
+		font-size: 16px;
+		color: #b2b2b2;
+		padding-left: 0px;
+	}
+	.hero__search__form form button {
+		top: 3px !important;
+		height: 41px !important;
+		margin: 1px 2px 1px 1px !important;
+	}
+	.site-btn {
+		width: 0%;
+		margin: 0px;
+		padding: 2px 28px 2px 14px !important;
 	}
 	.hero__search__phone {
 		float: left;
@@ -2735,7 +2793,42 @@
 		font-size: 12px !important;
 	}
 	.hero__search__form form .hero__search__categories {
-		display: none;
+		width: 40%;
+		float: left;
+		font-size: 10px;
+		color: #6c757d;
+		padding-left: 6px;
+		padding-top: 9px;
+		position: relative;
+		background: #CFE9E0;
+		margin: 2px 0px 2px 0px;
+		height: 36px;
+		border-radius: 25px;
+	}
+	.all-cate-dropdown {
+		font-size: 12px !important;
+		padding-left: 0px !important;
+	}
+	.hero__search__form form input {
+		width: 50%;
+		border: none;
+		height: 40px;
+		font-size: 13px;
+		color: #b2b2b2;
+		padding-left: 0px;
+	}
+	.hero__search__form form button {
+		position: absolute;
+		right: 0;
+		top: 2px !important;
+		height: 35px !important;
+		border: 1px solid #00a44b;
+		
+	}
+	.site-btn {
+		width: 0%;
+		margin: 0px;
+		padding: 2px 24px 2px 11px !important;
 	}
 	.today-best-deal {
 		font-size: 24px !important;
@@ -3330,7 +3423,7 @@
 		height: 35px;
 		font-size: 10px;
 		color: #b2b2b2;
-		margin-left: 10px;
+		margin-left: 0px;
 		padding-left: 0px;
 	}
 	.site-btn {
@@ -3359,7 +3452,42 @@
 		font-size: 12px !important;
 	}
 	.hero__search__form form .hero__search__categories {
-		display: none;
+		width: 37%;
+		float: left;
+		font-size: 10px;
+		color: #6c757d;
+		padding-left: 0px;
+		padding-top: 11px;
+		position: relative;
+		background: #CFE9E0;
+		margin: 2px 0px 2px 0px;
+		height: 36px;
+		border-radius: 25px;
+	}
+	.all-cate-dropdown {
+		font-size: 10px !important;
+		padding-left: 0px !important;
+	}
+	.hero__search__form form input {
+		width: 50%;
+		border: none;
+		height: 40px;
+		font-size: 13px;
+		color: #b2b2b2;
+		padding-left: 0px;
+	}
+	.hero__search__form form button {
+		position: absolute;
+		right: 0;
+		top: 2px !important;
+		height: 35px !important;
+		border: 1px solid #00a44b;
+		
+	}
+	.site-btn {
+		width: 0%;
+		margin: 0px;
+		padding: 2px 24px 2px 11px !important;
 	}
 	.today-best-deal {
 		font-size: 18px !important;
