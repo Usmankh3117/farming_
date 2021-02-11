@@ -2937,9 +2937,56 @@
 }
 
 @media only screen and (max-width: 375px) {
+	.suppliers {
+		font-size: 17px !important;
+	}
+	.leave-message {
+		font-size: 14px !important;
+		margin-right: 0px !important;
+	}
+	.product-name {
+		font-size: 16px !important;
+	}
+	.get-coupons > a {
+		font-size: 13px !important;
+		text-align: center !important;
+	}	
+	.product-details > .details {
+		font-size: 11px !important;
+		line-height: 13px !important;
+	}
+	.product-price-tag {
+		font-size: 20px !important;
+	}
+	.delivery {
+		font-size: 11px !important;
+	}
+	.discount {
+		font-size: 11px !important;
+	}
+	.get-discount > .count {
+		font-size: 14px !important;
+		padding: 2px 14px !important;
+		border-radius: 25px !important;
+		margin: 0px 25px !important;
+	}
+	.select-options {
+		font-size: 15px !important;
+		width: 100% !important; 
+	}
 	h2 {
 		font-size: 22px !important;
 	}
+	h3 {
+		font-size: 18px !important;
+	}
+
+	.checkout-top-heading {
+		font-size: 20px !important;
+		margin: 10px !important;
+	}
+
+
 	.featured__button > a {
 		font-size: 12px !important;
 	}
@@ -3018,11 +3065,22 @@
 		padding: 6px 22px !important;
 	}
 	.step_complete a.check-bc, .step_complete a.check-bc:hover, .afix-1, .afix-1:hover {
-		font-size: 16px !important;
+		font-size: 14px !important;
 	}
 	.step_not_complete a.check-bc, .step_not_complete a.check-bc:hover, .afix-1, .afix-1:hover {
-		font-size: 15px !important;
+		font-size: 12px !important;
 	}
+	.checkbox-text-span {
+		font-size: 12px !important;
+	}
+	.checkout-text-span {
+		margin-left: 0% !important;
+		font-size: 14px !important;
+	}
+	.co-right-bottom-text {
+		font-size: 14px !important;
+	}
+	
 	.partner-programme-top-img-details {
 		top: 20% !important;
 		left: 5% !important; 
