@@ -2250,6 +2250,14 @@
 /* Small Device = 320px */
 
 @media only screen and (min-width: 376px) and (max-width: 479px) {
+	.deal-details > p > .offer-time {
+		padding: 5px !important;
+		font-size: 15px !important; 
+		margin: 0px 5px !important;
+	}
+	.deal-details > h2 > .price {
+		font-size: 22px !important;
+	}
 	.top-menu {
 		font-size: 12px !important;
 	}
@@ -2823,6 +2831,26 @@
 }
 
 @media only screen and (max-width: 375px) {
+	h2 {
+		font-size: 22px !important;
+	}
+	.featured__button > a {
+		font-size: 12px !important;
+	}
+	.like-btn {
+		left: 25% !important;
+	}
+	.zoom-btn {
+		right: 25% !important;
+	}
+	.deal-details > p > .offer-time {
+		padding: 5px !important;
+		font-size: 15px !important; 
+		margin: 0px 5px !important;
+	}
+	.deal-details > h2 > .price {
+		font-size: 22px !important;
+	}
 	.mg-top-30 {
 		margin-top: 10px !important;
 	}
@@ -3255,7 +3283,10 @@
 		font-size: 10px !important;
 	}
 	.featured__details__heading {
-		font-size: 16px;
+		font-size: 14px;
+	}
+	h4 {
+		font-size: 14px !important;
 	}
 	.last-images1 > img {
 		width: 100% !important;
@@ -3363,7 +3394,7 @@
 		font-size: 24px;
 	}
 	.featured__details > .details {
-		font-size: 16px !important;
+		font-size: 12px !important;
 	}
 	.last-images {
 		padding: 10px !important;
