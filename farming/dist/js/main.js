@@ -20,6 +20,10 @@ function chat_now () {
     window.location.href = "./message.html";
 
 }
+function add_class_to_outer_div() {
+    var element = document.getElementById("currency-change-btn-add-class");
+    element.classList.add("open");   
+}
 
 (function ($) {
 
@@ -51,6 +55,7 @@ function chat_now () {
         $(this).css('background-image', 'url(' + bg + ')');
     });
 
+    
     //Humberger Menu
     $(".humberger__open").on('click', function () {
         $(".humberger__menu__wrapper").addClass("show__humberger__menu__wrapper");
@@ -195,7 +200,7 @@ function chat_now () {
     /*--------------------------
         Select
     ----------------------------*/
-    $("select").niceSelect();
+    // $("select").niceSelect();
 
     /*------------------
 		Single Product
