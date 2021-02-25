@@ -116,17 +116,17 @@ font-size: 18px;
 }
 .contact-form-input {
     margin: 10px 0px;
-    border: 1px solid #afafaf !important;
-    padding: 20px !important;
-    font-size: 20px !important;
+    border: 1px solid #afafaf;
+    padding: 20px;
+    font-size: 20px;
 }
 .message-textarea {
     width: 100%;
     height: 100px;
     margin: 10px 0px;
-    border: 1px solid #afafaf !important;
-    padding: 20px !important;
-    font-size: 20px !important;
+    border: 1px solid #afafaf;
+    padding: 20px;
+    font-size: 20px;
 }
 .form-control:focus {
     border-color: green !important;
