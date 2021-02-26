@@ -8,6 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
+  
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Farming</title>
@@ -33,74 +34,74 @@
 }
   </style>
 </head>
-<body>
+<body id="body">
     <!-- header section starts -->
-    <section class="header-section">
-        <div class="container">
+    <!-- <section class="header-section"> -->
+        
+        <!-- <div class="container">
             <div class="header">
                 <div class="mg-top-30"></div>
                   <div class="row">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
                       <img src="./dist/assets/img/logo.png" alt="logo" class="logo-img" onclick="goto_home_page();">
                     </div>
-                    <div class="col-lg-7 col-md-6 col-sm-6 col-xs-9">
+                    <div class="col-lg-7 col-md-6 col-sm-6 col-xs-5">
+                    <div class="row">
+
                       <div class="hero__search">
                           <div class="hero__search__form">
-                              <form action="#">
-                                  <div class="hero__search__categories">
-                                      <!-- All Categories
-                                      
-                                      <span class="arrow_carrot-down"><i class="fa fa-chevron-down"></i></span> -->    
-                                        <!-- <select class="all-cate-dropdown">
-                                          <option>All Categories</option>
-                                          <option>Categories1</option>
-                                          <option>Categories2</option>
-                                          <option>Categories3</option>
-                                          <option>Categories4</option>
-                                      </select> -->
-                                      <div class="dropdown all-cate-dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                         All Categories <i class="fa fa-chevron-down all-cat-icon"></i>
-                                        </button>
-                                        <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                          <a class="dropdown-item" href="#">Categories</a>
-                                          <a class="dropdown-item" href="#">Categories</a>
-                                          <a class="dropdown-item" href="#">Categories</a>
-                                        </div> -->
-                                      </div>
-                                      
-                                  </div>
-                                  <input type="text" placeholder="Search for Products... ">
-                                  <button type="submit" class="site-btn">
-                                      <i class="fa fa-search"></i>
-                                    </button>
+                               
+                              <form action="#" class="d-flex">
+                                    <div class="col-lg-4 col-md-4 col-sm-6 col-xsm-6 ">
+                                        <div class="dropdown">
+                                            <button class="btn btn-default btn-lg dropdown-toggle categorybtn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                              All Categories
+                                              <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                              <li><a href="#">Action</a></li>
+                                              <li><a href="#">Another action</a></li>
+                                              <li><a href="#">Something else here</a></li>
+                                              <li role="separator" class="divider"></li>
+                                              <li><a href="#">Separated link</a></li>
+                                            </ul>
+                                          </div>
+      
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-6 col-xsm-6 "> <input type="text" class="form-control me-2" placeholder="Search for Products... ">
+                                        <button type="submit" class="site-btn">
+                                            <i class="fa fa-search searchBtn"></i>
+                                          </button>
+                                    </div>
                               </form>
+                                    
+                                </div>
+                                  
+                                 
+                                 
                           </div>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
                       <ul class="list-group list-group-horizontal">
-                          <li class="list-group-item top-right-img-li">
-                              <a href="./checkout.html">
-                                <img src="./dist/assets/img/landing_page_icons/threelines.png" alt="img1" class="top-right-img">
-                              </a>
-                              
-                          </i>
-                          <li class="list-group-item top-right-img-li">
-                                <a href="./my-favourite.html">
-                                    <img src="./dist/assets/img/landing_page_icons/heart-shape-outline.png" alt="img2" class="top-right-img">
-                                </a>
+                           <li class="list-group-item top-right-img-li">
+                            <a href="./checkout.html">
+                              <img src="./dist/assets/img/icon1.png" alt="img1" class="top-right-img">
+                            </a>
                             
-                          </li>
-                          <li class="list-group-item top-right-img-li top-right-img-count-outer-div">
-                                <a href="./add-to-cart.html">
-                                    <img src="./dist/assets/img/landing_page_icons/shopping-cart-empty-side-view.png" alt="img3" class="top-right-img">
-                                    <div class="top-right-img-count-div">
-                                        <span class="counter">0</span>
-                                    </div>
-                                </a>
-                              
-                          </li>
+                        </i>
+                        <li class="list-group-item top-right-img-li">
+                              <a href="./my-favourite.html">
+                                  <img src="./dist/assets/img/heart-icon.png" alt="img2" class="top-right-img">
+                              </a>
+                          
+                        </li>
+                        <li class="list-group-item top-right-img-li">
+                            <a href="./add-to-cart.html">
+                              <img src="./dist/assets/img/cart-icon.png" alt="img3" class="top-right-img">
+                            </a>
+                          
+                        </li>
                           <li class="list-group-item top-right-img-count">
                             ($0)
                           </li>
@@ -108,14 +109,80 @@
                     </div>
                     </div>
             </div>
-        </div>
+        </div> -->
+        <div class="container">
+            <div class="row" id="header">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+                    <img src="./dist/assets/img/logo.png" alt="logo" class="logo-img" onclick="goto_home_page();">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <div class="search_bar">
+                        <form class="form-inline">
+                        <div class="row topmidheader">
+                            <div class="col-lg-4 col-md-4 col-sm-2 col-xsm-2 middropdown ">
+                                <div class="dropdown">
+                                <button class="btn btn-lg midheadbutton  dropdown-toggle lgbtn " type="button" id="dropwondmidheader" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">All Categories  <span class="caret"></span></button>
+                                <button class="btn btn-sm midheadbutton  dropdown-toggle smlbtn" style="display:none" type="button" id="dropwondmidheader" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">All Categories  <span class="caret"></span></button>
+                                <ul class="dropdown-menu drpdwn" aria-labelledby="dropwondmidheader">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                  </ul>
+                            </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-10 col-xsm-10 inputt" >
+                                <div class="form-group">
+                                <input type="email" class="form-control midheadform"   placeholder="Search for products">
+                            </div>
+
+                            </div>
+                            <div class="col-lg-2 col-md-2 sb">
+                                <button type="submit" class="midsearchbutton btn btn-lg">
+                                    <i class="fa fa-search searchBtn"></i>
+                                  </button>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 headerrightsec">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item top-right-img-li">
+                         <a href="./checkout.html">
+                           <img src="./dist/assets/img/icon1.png" alt="img1" class="top-right-img">
+                         </a>
+                         
+                     </i>
+                     <li class="list-group-item top-right-img-li">
+                           <a href="./my-favourite.html">
+                               <img src="./dist/assets/img/heart-icon.png" alt="img2" class="top-right-img">
+                           </a>
+                       
+                     </li>
+                     <li class="list-group-item top-right-img-li">
+                         <a href="./add-to-cart.html">
+                           <img src="./dist/assets/img/cart-icon.png" alt="img3" class="top-right-img">
+                         </a>
+                       
+                     </li>
+                       <li class="list-group-item top-right-img-count cash">
+                         ($0)
+                       </li>
+                     </ul>
+
+                </div>
+            </div>
+        <!-- </div> -->
     </section>
     <!-- header section ends -->
     <!-- language section starts -->
-    <section class="">
+ <!-- <section class="mt-5">
         <div class="container">
-            <div class="row mg-top-30"></div>
-            <div class="row">
+            <div class="row mt-5 mb-5">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xsm-12">
                 <div class="btn-group currency-change-btn right-aline" id="currency-change-btn-add-class">      
                     <a data-toggle="dropdown" class="nav-link dropdown-toggle mr-4" onclick="add_class_to_outer_div();">French - USD <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     <div class="dropdown-menu action-form">
@@ -127,26 +194,26 @@
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle inside-drop-down" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                       French <i class="fa fa-chevron-down down-icon"></i>
-                                    </button>
-                                    <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    </button> 
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                       <p class="dropdown-item" >French</p>
                                       <p class="dropdown-item" >English</p>
                                       <p class="dropdown-item" >Urdu</p>
-                                    </div> -->
-                                  </div>
+                                    </div> 
+                           </div>
                             </div>
                             <div class="form-group">
                                 <div class="dropdown">
                                     <label for="" style="font-size: 12px;">Select Currency</label>
                                     <button class="btn btn-secondary dropdown-toggle inside-drop-down" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                       USD <i class="fa fa-chevron-down down-icon"></i>
-                                    </button>
-                                    <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    </button> 
+                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <p class="dropdown-item" >USD</p>
                                         <p class="dropdown-item" >PKR</p>
                                         <p class="dropdown-item" >INR</p>
-                                    </div> -->
-                                  </div>
+                                    </div>
+                                </div>
                             </div>
                             <input type="submit" class="change-cur-lang-btn" value="Submit">
                             
@@ -154,7 +221,34 @@
                     </div>
                 </div>
             </div>
+            </div>
             <div class="row mg-top-30"></div>
+            </div>
+        </div>
+    </section> -->
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-4 col-smx-3">
+                    <div class="dropdown language">
+
+                        <label class="btn btn-default dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Select Language and Currency
+                          <span class="caret"></span>
+                        </label>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Separated link</a></li>
+                        </ul>
+                     
+
+                      </div>
+                      
+                </div>
             </div>
         </div>
     </section>
@@ -164,8 +258,47 @@
     <!-- header links start -->
     <section>
         <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand mr-5" href="#">Categories</a>
+                  </div>
+              
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse headermid" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbtn">
+                      <li class="active"><a href="./landing-page.html" class="">Home</a></li>
+
+                      <li><a href="./news.html" class=" ">Pages</a></li>
+                      <li>
+                        <a href="./partner-programme.html" class="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="./product-categories.html" class="">Shop</a>
+                    </li>
+                    <li>
+                        <a href="./product-categories.html" class="">Elements</a>
+                    </li>
+                     
+                     
+                    </ul>
+                   
+                    <ul class="nav navbar-nav navbar-right">
+                        <p class="navbar-text">Call us on toll free (+1)866-540-3229</p>
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
             <div class="row only-for-mobile-screen">
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+
+                <!-- <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
@@ -189,7 +322,7 @@
                             <span class="top-menu callus"> Call us on toll free <span class="call-us-number">(+1)866-540-3229</span></span>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
 
         </div>
@@ -205,9 +338,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-3">
                     <div class="hero__categories">
-                        <div class="hero__categories__all">
-                            <span>Categories</span>
-                        </div>
+                        
                         <ul>
                             <li>
                                 <a href="#" class="active-cat">
@@ -1301,12 +1432,12 @@
     </footer>
       
     <script src="dist/js/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.8.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.8.4/umd/popper.min.js"></script> 
     <script src="dist/js/bootstrap.min.js"></script>
-      <script src="dist/js/jquery-ui.min.js"></script>
-      <script src="dist/js/jquery.slicknav.js"></script>
-      <script src="dist/js/mixitup.min.js"></script>
-      <script src="dist/js/owl.carousel.min.js"></script>
+    <script src="dist/js/jquery-ui.min.js"></script>
+    <script src="dist/js/jquery.slicknav.js"></script>
+    <script src="dist/js/mixitup.min.js"></script>
+    <script src="dist/js/owl.carousel.min.js"></script> 
       
       <script src="dist/js/main.js"></script>
 
