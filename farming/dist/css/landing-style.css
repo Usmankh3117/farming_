@@ -46,7 +46,7 @@
 -----------------------*/
 
 .hero__categories {
-	margin-top: -51px;
+	margin-top: 7px;
 }
 .hero {
 	padding-bottom: 5px;
@@ -737,4 +737,11 @@ li > a:only-child:after { content: ''; }
     -webkit-border-radius: 6px 0 6px 6px;
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
+}
+
+/* language  */
+.language{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	float: right;
 }

@@ -1,3 +1,6 @@
+#body{
+	font-family: "Goudy Bookletter 1911", sans-serif!important;
+}
 .logo-img {
 	width: 100%;
 }
@@ -13,6 +16,105 @@
 	margin-bottom: 0px !important;
     margin-top: 15px !important;
 }
+
+#header {
+	margin-top: 3.5rem;
+
+}
+
+@media (max-width: 600px) { 
+	#header .headerrightsec {
+		display:none;
+	}
+	.midheadbutton{
+		display:none;
+	}
+	.midheadform{
+		width: 50%!important;
+	}
+	.topmidheader .lgbtn{
+		display: none!important;		
+	}
+	.topmidheader .smlbtn{
+		display: block!important;
+
+	}
+	.topmidheader .inputt{
+		display:none;
+	}
+	.topmidheader .sb{
+		display:none;
+	}
+
+ }
+.search_bar {
+	border: 1px solid #6c757d;
+	border-radius: 25px;
+	margin-top: 2rem;
+	
+}
+.topmidheader{
+	margin: 0.2rem;
+	margin-top:.5rem;
+
+}
+.midheadbutton{
+	margin-left: .5rem!important;
+    border-radius: 20px!important;
+	margin-bottom: .5rem!important;
+	background-color: #cfe9e0;
+}
+.headerrightsec{
+	margin-top: 1.5rem;
+
+}
+.cash{
+	margin-top: 1px!important;
+}
+.midheadform{
+	/* width: 22rem!important; */
+	height: 4rem!important;
+	margin-left: 1rem;
+	border: none!important;
+}
+
+.midsearchbutton{
+    background-color: #4faa43;
+	border-radius: 21px!important;
+	margin-left: 1.2rem;
+	
+}
+.midsearchbutton textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+box-shadow: inset 0 -1px 0 #ddd;
+}
+.drpdwn{
+	border-radius: 25px;
+
+}
+.navbtn li{
+	background-color:rgb(255, 250, 250)!important;
+	margin-left:3rem;
+	color: black!important;
+}
+.navbtn li a{
+	color: black!important;
+}
+.headermid{
+	background-color: white;
+}
+
+
 
 
 .carousel-indicators {
@@ -172,7 +274,7 @@ select::-ms-expand {
 }
 
 .hero__search__form form input {
-	width: 70%;
+	width: 100%;
 	border: none;
 	height: 48px;
 	font-size: 16px;
@@ -191,6 +293,22 @@ select::-ms-expand {
     height: 47px;
     border: 1px solid #00a44b;
     margin: 1px 1px 1px 1px;
+	border-radius: 21px;
+	background-color: #00a44b;
+}
+.hero__search__form form .categorybtn {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    height: 47px;
+    border: 1px solid #00a44b;
+    margin: 1px 1px 1px 1px;
+	border-radius: 21px;
+	background-color: #00a44b;
+}
+
+.hero__search__form form button:hover {
+   background-color: #6be65b;
 }
 
 .hero__search__phone {
